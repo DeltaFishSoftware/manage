@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.DeltaFish.manage.TestTUserMapper
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.147 s <<< FAILURE! - in com.DeltaFish.manage.TestTUserMapper
+testSelectAll(com.DeltaFish.manage.TestTUserMapper)  Time elapsed: 0.018 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.DeltaFish.manage.TestTUserMapper.testSelectAll(TestTUserMapper.java:13)
+
