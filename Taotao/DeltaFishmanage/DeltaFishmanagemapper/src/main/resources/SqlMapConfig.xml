@@ -6,6 +6,9 @@
 <configuration>
 
     <properties resource="jdbc.properties" />
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true" />
+    </settings>
     <typeAliases>
         <package name="pojo"/>
     </typeAliases>
