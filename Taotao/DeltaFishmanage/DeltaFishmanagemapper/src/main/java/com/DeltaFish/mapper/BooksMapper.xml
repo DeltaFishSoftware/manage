@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.DeltaFish.mapper.BooksMapper" >
+  <resultMap id="BaseResultMap" type="com.DeltaFish.pojo.Books" >
+    <constructor >
+      <arg column="book_name" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="edition" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="author" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="press" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="intorduction" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="operation" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column=" link" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="comment" jdbcType="VARCHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+  <insert id="insert" parameterType="com.DeltaFish.pojo.Books" >
+    insert into books (book_name, edition, author, 
+      press, intorduction, operation, 
+      " link", comment)
+    values (#{bookName,jdbcType=VARCHAR}, #{edition,jdbcType=VARCHAR}, #{author,jdbcType=VARCHAR}, 
+      #{press,jdbcType=VARCHAR}, #{intorduction,jdbcType=VARCHAR}, #{operation,jdbcType=VARCHAR}, 
+      #{link,jdbcType=VARCHAR}, #{comment,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.DeltaFish.pojo.Books" >
+    insert into books
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="bookName != null" >
+        book_name,
+      </if>
+      <if test="edition != null" >
+        edition,
+      </if>
+      <if test="author != null" >
+        author,
+      </if>
+      <if test="press != null" >
+        press,
+      </if>
+      <if test="intorduction != null" >
+        intorduction,
+      </if>
+      <if test="operation != null" >
+        operation,
+      </if>
+      <if test="link != null" >
+        " link",
+      </if>
+      <if test="comment != null" >
+        comment,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="bookName != null" >
+        #{bookName,jdbcType=VARCHAR},
+      </if>
+      <if test="edition != null" >
+        #{edition,jdbcType=VARCHAR},
+      </if>
+      <if test="author != null" >
+        #{author,jdbcType=VARCHAR},
+      </if>
+      <if test="press != null" >
+        #{press,jdbcType=VARCHAR},
+      </if>
+      <if test="intorduction != null" >
+        #{intorduction,jdbcType=VARCHAR},
+      </if>
+      <if test="operation != null" >
+        #{operation,jdbcType=VARCHAR},
+      </if>
+      <if test="link != null" >
+        #{link,jdbcType=VARCHAR},
+      </if>
+      <if test="comment != null" >
+        #{comment,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+</mapper>

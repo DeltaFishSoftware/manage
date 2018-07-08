@@ -15,6 +15,8 @@ public interface TUserMapper {
 
     public TUser findUserById(String id) throws Exception;
 
+    public TUser findUserByName(String name) throws Exception;
+
     public int deleteUser(String id) throws Exception;
 
     List<TUser> selectAll();
