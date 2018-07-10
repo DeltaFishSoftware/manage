@@ -10,8 +10,53 @@ import java.util.List;
 
 public class TestTUserMapper extends BeforeTUserMapper{
      @Test
-     //test intetface insertUser
-     public void testSelectAll(){
+     /*
+     public void testDeleteUser(){
+         SqlSession sqlSession = getSqlSession();
+         try{
+             TUserMapper roleMapper = sqlSession.getMapper(TUserMapper.class);
+             int result = roleMapper.deleteUser("PB11111111");
+             System.out.print(result);
+         } catch (Exception e) {
+             e.printStackTrace();
+         } finally {
+             sqlSession.close();
+         }
+     }
+     */
+
+     /*
+     public void testFindUserByName(){
+         SqlSession sqlSession = getSqlSession();
+         try{
+             TUserMapper roleMapper = sqlSession.getMapper(TUserMapper.class);
+             TUser sysRole = roleMapper.findUserByName("小工匠");
+             System.out.print(sysRole.getEmail());
+         } catch (Exception e) {
+             e.printStackTrace();
+         } finally {
+             sqlSession.close();
+         }
+     }
+     */
+
+
+    public void testFindUserById(){
+         SqlSession sqlSession = getSqlSession();
+         try{
+             TUserMapper roleMapper = sqlSession.getMapper(TUserMapper.class);
+             TUser sysRole = roleMapper.findUserById("PB16061111");
+             System.out.print(sysRole.getUserName());
+         } catch (Exception e) {
+             e.printStackTrace();
+         } finally {
+             sqlSession.close();
+         }
+     }
+
+
+     /*
+     public void testInsertUser(){
          SqlSession sqlSession = getSqlSession();
          try{
              // 获取RoleMapper接口
@@ -31,7 +76,9 @@ public class TestTUserMapper extends BeforeTUserMapper{
              sqlSession.close();
          }
      }
-     /*test interfatce "selectAll"
+     */
+
+
      public void testSelectAll(){
         SqlSession sqlSession = getSqlSession();
         try{
@@ -56,5 +103,5 @@ public class TestTUserMapper extends BeforeTUserMapper{
 
         }
     }
-    */
+
 }

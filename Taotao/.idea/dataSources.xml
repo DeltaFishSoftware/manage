@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="deltafish@47.106.166.236 [2]" uuid="40f52147-d399-4dec-8e77-f577aa4e24b9">
+    <data-source source="LOCAL" name="deltafish@47.106.166.236" uuid="4cc605c9-4cfa-47bb-9c37-735106dd012c">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://47.106.166.236:3306/deltafish</jdbc-url>
+      <jdbc-url>jdbc:mysql://47.106.166.236/deltafish</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />

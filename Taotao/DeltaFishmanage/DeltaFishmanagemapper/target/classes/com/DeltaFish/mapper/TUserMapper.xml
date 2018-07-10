@@ -29,16 +29,14 @@
   </select>
 
   <select id="findUserById" parameterType="String" resultType="com.DeltaFish.pojo.TUser">
-    SELECT
-    * FROM USER WHERE id= #{userId}
+    select * from t_user where user_id= #{userId}
   </select>
 
   <select id="findUserByName" parameterType="String" resultType="com.DeltaFish.pojo.TUser">
-    SELECT
-    * FROM USER WHERE name= #{userName}
+    SELECT * FROM t_user WHERE user_name= #{userName}
   </select>
 
   <delete id="deleteUser" parameterType="String">
-    delete from user where id=#{userId}
+    delete from t_user where user_id=#{userId}
   </delete>
 </mapper>

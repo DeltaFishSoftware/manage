@@ -1,5 +1,7 @@
 package com.DeltaFish.pojo;
 
+import java.awt.*;
+
 public class TUser {
     private String userId;
     private String password;
@@ -9,6 +11,11 @@ public class TUser {
     private String mobile;
     private String lastVisit;
     private String lastIp;
+    private Image image;
+    private String lable;
+    private String introduction;
+    private String buyerComment;
+    private String sellerComment;
 
     public String getUserId() {
         return userId;
@@ -64,5 +71,45 @@ public class TUser {
 
     public String getLastIp() {
         return lastIp;
+    }
+
+    public Image getImage() {
+        return image;
+    }
+
+    public void setImage(Image image) {
+        this.image = image;
+    }
+
+    public String getLable() {
+        return lable;
+    }
+
+    public void setLable(String lable) {
+        this.lable = lable;
+    }
+
+    public String getIntroduction() {
+        return introduction;
+    }
+
+    public void setIntroduction(String introduction) {
+        this.introduction = introduction;
+    }
+
+    public String getBuyerComment() {
+        return buyerComment;
+    }
+
+    public void setBuyerComment(String buyerComment) {
+        this.buyerComment = buyerComment;
+    }
+
+    public String getSellerComment() {
+        return sellerComment;
+    }
+
+    public void setSellerComment(String sellerComment) {
+        this.sellerComment = sellerComment;
     }
 }
