@@ -104,4 +104,8 @@
   <select id="findBookByPress" parameterType="String" resultType="com.DeltaFish.pojo.TUser">
     select * from books where press= #{press}
   </select>
+
+  <select id="findBookByOwner" parameterType="String" resultType="com.DeltaFish.pojo.TUser">
+    select * from books where owner_id= #{ownerId}
+  </select>
 </mapper>

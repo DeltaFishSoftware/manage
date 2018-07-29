@@ -35,7 +35,7 @@ public class Books {
         this.bookName = bookName == null ? null : bookName.trim();
     }
 
-    public String getEdition(String 第五版) {
+    public String getEdition(String edition) {
         return edition;
     }
 

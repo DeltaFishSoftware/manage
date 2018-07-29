@@ -18,4 +18,6 @@ public interface BooksMapper {
     public  List<Books> findBookByAuthor(String author) throws Exception;
 
     public  List<Books> findBookByPress(String press) throws Exception;
+    
+    public  List<Books> findBookByOwner(String id) throws Exception;
 }
