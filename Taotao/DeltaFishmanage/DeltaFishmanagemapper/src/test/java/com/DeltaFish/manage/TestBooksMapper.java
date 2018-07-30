@@ -7,7 +7,7 @@ import org.junit.Test;
 
 
 public class TestBooksMapper extends BeforeBooksMapper{
-   @Test
+    @Test
     public void testInsertUser(){
         SqlSession sqlSession = getSqlSession();
         try{

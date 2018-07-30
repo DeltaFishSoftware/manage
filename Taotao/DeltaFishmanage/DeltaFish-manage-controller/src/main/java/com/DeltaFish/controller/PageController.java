@@ -62,6 +62,7 @@ public class PageController {
         return "Register";
     }
 
+
     /**
      * 跳转交易市场页
      *
@@ -72,6 +73,7 @@ public class PageController {
     public String showMall() {
         return "Mall";
     }
+
 
     /**
      * 跳转商品详情页
@@ -84,6 +86,7 @@ public class PageController {
         return "Detail";
     }
 
+
     /**
      * 跳转关于我们页
      *
@@ -94,6 +97,7 @@ public class PageController {
     public String showAboutUs() {
         return "AboutUs";
     }
+
 
     /**
      * 跳转404页
