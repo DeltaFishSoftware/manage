@@ -1,1 +1,6 @@
+com\DeltaFish\pojo\Userinfo.class
+com\DeltaFish\pojo\Books.class
+com\DeltaFish\mapper\BooksMapper.class
 com\DeltaFish\mapper\TUserMapper.class
+com\DeltaFish\pojo\TUser.class
+com\DeltaFish\mapper\UserinfoMapper.class

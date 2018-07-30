@@ -6,6 +6,7 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.BeforeClass;
 
+import javax.annotation.Resource;
 import java.io.IOException;
 import java.io.Reader;
 

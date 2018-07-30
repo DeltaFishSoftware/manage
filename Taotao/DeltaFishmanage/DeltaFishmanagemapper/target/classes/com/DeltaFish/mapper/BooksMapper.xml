@@ -7,22 +7,20 @@
       <arg column="edition" jdbcType="VARCHAR" javaType="java.lang.String" />
       <arg column="author" jdbcType="VARCHAR" javaType="java.lang.String" />
       <arg column="press" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column="introduction" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="intorduction" jdbcType="VARCHAR" javaType="java.lang.String" />
       <arg column="operation" jdbcType="VARCHAR" javaType="java.lang.String" />
       <arg column=" link" jdbcType="VARCHAR" javaType="java.lang.String" />
       <arg column="comment" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column="book_id" jdbcType="VARCHAR" javaType="java.lang.String" />
     </constructor>
   </resultMap>
-
-  <insert id="insertBook" parameterType="com.DeltaFish.pojo.Books" >
+  <insert id="insert" parameterType="com.DeltaFish.pojo.Books" >
     insert into books (book_name, edition, author, 
-      press, introduction, operation, link, comment, book_id)
+      press, intorduction, operation, 
+      " link", comment)
     values (#{bookName,jdbcType=VARCHAR}, #{edition,jdbcType=VARCHAR}, #{author,jdbcType=VARCHAR}, 
-      #{press,jdbcType=VARCHAR}, #{introduction,jdbcType=VARCHAR}, #{operation,jdbcType=VARCHAR},
-      #{link,jdbcType=VARCHAR}, #{comment,jdbcType=VARCHAR}, #{bookId,jdbcType=VARCHAR})
+      #{press,jdbcType=VARCHAR}, #{intorduction,jdbcType=VARCHAR}, #{operation,jdbcType=VARCHAR}, 
+      #{link,jdbcType=VARCHAR}, #{comment,jdbcType=VARCHAR})
   </insert>
-
   <insert id="insertSelective" parameterType="com.DeltaFish.pojo.Books" >
     insert into books
     <trim prefix="(" suffix=")" suffixOverrides="," >
@@ -38,8 +36,8 @@
       <if test="press != null" >
         press,
       </if>
-      <if test="introduction != null" >
-        introduction,
+      <if test="intorduction != null" >
+        intorduction,
       </if>
       <if test="operation != null" >
         operation,
@@ -49,9 +47,6 @@
       </if>
       <if test="comment != null" >
         comment,
-      </if>
-      <if test="bookId != null" >
-        book_id,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
@@ -67,8 +62,8 @@
       <if test="press != null" >
         #{press,jdbcType=VARCHAR},
       </if>
-      <if test="introduction != null" >
-        #{introduction,jdbcType=VARCHAR},
+      <if test="intorduction != null" >
+        #{intorduction,jdbcType=VARCHAR},
       </if>
       <if test="operation != null" >
         #{operation,jdbcType=VARCHAR},
@@ -79,29 +74,6 @@
       <if test="comment != null" >
         #{comment,jdbcType=VARCHAR},
       </if>
-      <if test="bookId != null" >
-        #{bookId,jdbcType=VARCHAR},
-      </if>
     </trim>
   </insert>
-
-  <delete id="deleteBook" parameterType="String">
-    delete from books where book_id=#{bookId}
-  </delete>
-
-  <select id="findBookById" parameterType="String" resultType="com.DeltaFish.pojo.TUser">
-    select * from books where book_id= #{bookId}
-  </select>
-
-  <select id="findBookByName" parameterType="String" resultType="com.DeltaFish.pojo.TUser">
-    select * from books where book_name= #{bookName}
-  </select>
-
-  <select id="findBookByAuthor" parameterType="String" resultType="com.DeltaFish.pojo.TUser">
-    select * from books where author= #{author}
-  </select>
-
-  <select id="findBookByPress" parameterType="String" resultType="com.DeltaFish.pojo.TUser">
-    select * from books where press= #{press}
-  </select>
 </mapper>

@@ -11,6 +11,8 @@
     <mvc:annotation-driven />
     <mvc:resources mapping="/static/css/**" location="static/css/"/>     <!--单独处理静态文件-->
     <mvc:resources mapping="/static/js/**" location="static/js/"/>
+    <mvc:resources mapping="/static/images/**" location="/static/images/"/>
+    <mvc:default-servlet-handler />
     <bean
             class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/jsp/" />
