@@ -14,6 +14,7 @@ public class TestBooksMapper extends BeforeBooksMapper{
             // 获取RoleMapper接口
             BooksMapper roleMapper = sqlSession.getMapper(BooksMapper.class);
             Books sysRole = new Books();
+            sysRole.setOwnerId("PB16002222");
             sysRole.setBookId("a11111111");
             sysRole.setBookName("东方树叶");
             sysRole.setEdition("第一版");
