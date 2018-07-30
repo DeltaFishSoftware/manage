@@ -53,7 +53,7 @@ public class NeedMapper {
         tu.setEmail(email);
         tu.setUserId(user_id);
         TUserMapper tUM=session.getMapper(TUserMapper.class);
-        tUM.insertUser(tu);
+        //tUM.insertUser(tu);
         System.out.println(tu.getUserId());
         session.commit();
         session.close();
