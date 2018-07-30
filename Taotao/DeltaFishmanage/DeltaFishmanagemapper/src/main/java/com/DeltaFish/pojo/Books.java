@@ -1,40 +1,35 @@
 package com.DeltaFish.pojo;
 
 public class Books {
-    private String ownerId;
     private String bookName;
-    private String edition;
-    private String author;
-    private String press;
-    private String introduction;
-    private String operation;
-    private String link;
-    private String comment;
-    private String bookId;
 
-    public Books(String ownerId, String bookName, String edition, String author, String press, String introduction, String operation, String link, String comment) {
-        this.ownerId = ownerId;
+    private String edition;
+
+    private String author;
+
+    private String press;
+
+    private String intorduction;
+
+    private String operation;
+
+    private String link;
+
+    private String comment;
+
+    public Books(String bookName, String edition, String author, String press, String intorduction, String operation, String link, String comment) {
         this.bookName = bookName;
         this.edition = edition;
         this.author = author;
         this.press = press;
-        this.introduction = introduction;
+        this.intorduction = intorduction;
         this.operation = operation;
         this.link = link;
         this.comment = comment;
-        this.bookId = bookId;
     }
 
     public Books() {
         super();
-    }
-
-    public String getOwnerId() {
-        return ownerId;
-    }
-
-    public void setOwnerId(String ownerId) {
-        this.ownerId = ownerId;
     }
 
     public String getBookName() {
@@ -45,7 +40,7 @@ public class Books {
         this.bookName = bookName == null ? null : bookName.trim();
     }
 
-    public String getEdition(String edition) {
+    public String getEdition() {
         return edition;
     }
 
@@ -69,12 +64,12 @@ public class Books {
         this.press = press == null ? null : press.trim();
     }
 
-    public String getIntroduction() {
-        return introduction;
+    public String getIntorduction() {
+        return intorduction;
     }
 
-    public void setIntroduction(String introduction) {
-        this.introduction = introduction == null ? null : introduction.trim();
+    public void setIntorduction(String intorduction) {
+        this.intorduction = intorduction == null ? null : intorduction.trim();
     }
 
     public String getOperation() {
@@ -100,13 +95,4 @@ public class Books {
     public void setComment(String comment) {
         this.comment = comment == null ? null : comment.trim();
     }
-
-    public String getBookId() {
-        return bookId;
-    }
-
-    public void setBookId(String bookId) {
-        this.bookId = bookId == null ? null : bookId.trim();
-    }
-
 }

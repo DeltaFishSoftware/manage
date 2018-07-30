@@ -7,7 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/DeltaFishcommon/DeltaFishcommon.iml" filepath="$PROJECT_DIR$/DeltaFishcommon/DeltaFishcommon.iml" />
       <module fileurl="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanage.iml" filepath="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanage.iml" />
       <module fileurl="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/DeltaFishmanagemapper.iml" filepath="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/DeltaFishmanagemapper.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagepojo/DeltaFishmanagepojo.iml" filepath="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagepojo/DeltaFishmanagepojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/DeltaFishparent/DeltaFishparent.iml" filepath="$PROJECT_DIR$/DeltaFishparent/DeltaFishparent.iml" />
     </modules>
   </component>

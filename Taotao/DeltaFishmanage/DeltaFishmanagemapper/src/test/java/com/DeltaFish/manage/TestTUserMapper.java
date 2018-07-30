@@ -1,6 +1,5 @@
 package com.DeltaFish.manage;
 
-import com.DeltaFish.mapper.TUserMapper;
 import com.DeltaFish.pojo.TUser;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
@@ -10,76 +9,7 @@ import java.util.List;
 
 public class TestTUserMapper extends BeforeTUserMapper{
      @Test
-     /*
-     public void testDeleteUser(){
-         SqlSession sqlSession = getSqlSession();
-         try{
-             TUserMapper roleMapper = sqlSession.getMapper(TUserMapper.class);
-             int result = roleMapper.deleteUser("PB11111111");
-             System.out.print(result);
-         } catch (Exception e) {
-             e.printStackTrace();
-         } finally {
-             sqlSession.close();
-         }
-     }
-     */
-
-     /*
-     public void testFindUserByName(){
-         SqlSession sqlSession = getSqlSession();
-         try{
-             TUserMapper roleMapper = sqlSession.getMapper(TUserMapper.class);
-             TUser sysRole = roleMapper.findUserByName("小工匠");
-             System.out.print(sysRole.getEmail());
-         } catch (Exception e) {
-             e.printStackTrace();
-         } finally {
-             sqlSession.close();
-         }
-     }
-     */
-
-
-    public void testFindUserById(){
-         SqlSession sqlSession = getSqlSession();
-         try{
-             TUserMapper roleMapper = sqlSession.getMapper(TUserMapper.class);
-             TUser sysRole = roleMapper.findUserById("PB16061111");
-             System.out.print(sysRole.getUserName());
-         } catch (Exception e) {
-             e.printStackTrace();
-         } finally {
-             sqlSession.close();
-         }
-     }
-
-
-     /*
-     public void testInsertUser(){
-         SqlSession sqlSession = getSqlSession();
-         try{
-             // 获取RoleMapper接口
-             TUserMapper roleMapper = sqlSession.getMapper(TUserMapper.class);
-             TUser sysRole = new TUser();
-             sysRole.setUserId("PB11111111");
-             sysRole.setUserName("小工匠");
-             sysRole.setEmail("czk654@mail.ustc.edu.cn");
-             sysRole.setPassword("123456789");
-             // 新增用户 ,返回受影响的行数
-             int result = roleMapper.insertUser(sysRole);
-             System.out.print(result);
-         } catch (Exception e) {
-             e.printStackTrace();
-         } finally{
-             //sqlSession.commit(); //commit到mysql？
-             sqlSession.close();
-         }
-     }
-     */
-
-
-     public void testSelectAll(){
+   public void testSelectAll(){
         SqlSession sqlSession = getSqlSession();
         try{
             List<TUser> TUserList =
@@ -98,10 +28,9 @@ public class TestTUserMapper extends BeforeTUserMapper{
                     user1.getPassword()+"\n"+
                     user1.getCredits()+"\n"+
                     user1.getEmail()+"\n"+
-                    user1.getMobile()+"\n"
+                    user1.getMobile()
             );
 
         }
     }
-
 }

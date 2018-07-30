@@ -17,10 +17,13 @@
     <result column="last_ip" property="lastIp" jdbcType="VARCHAR" />
   </resultMap>
   <insert id="insertUser" parameterType="com.DeltaFish.pojo.TUser">
-    insert into t_user (user_id, user_name, password, email
+    insert into t_user (user_id, user_name, password, credits,
+      email, mobile, last_visit, last_ip
       )
     values (#{userId,jdbcType=VARCHAR}, #{userName,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR},
-      #{email,jdbcType=VARCHAR})
+      #{credits,jdbcType=INTEGER}, #{email,jdbcType=VARCHAR}, #{mobile,jdbcType=VARCHAR},
+      #{lastVisit,jdbcType=DATE}, #{lastIp,jdbcType=VARCHAR}
+      )
   </insert>
 
   <select id="selectAll" resultType="com.DeltaFish.pojo.TUser" >
@@ -29,14 +32,11 @@
   </select>
 
   <select id="findUserById" parameterType="String" resultType="com.DeltaFish.pojo.TUser">
-    select * from t_user where user_id= #{userId}
-  </select>
-
-  <select id="findUserByName" parameterType="String" resultType="com.DeltaFish.pojo.TUser">
-    SELECT * FROM t_user WHERE user_name= #{userName}
+    SELECT
+    * FROM USER WHERE id= #{userId}
   </select>
 
   <delete id="deleteUser" parameterType="String">
-    delete from t_user where user_id=#{userId}
+    delete from user where id=#{userId}
   </delete>
 </mapper>

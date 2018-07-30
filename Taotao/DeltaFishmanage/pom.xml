@@ -19,7 +19,6 @@
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
     <modules>
-        <module>DeltaFishmanagepojo</module>
         <module>DeltaFishmanagemapper</module>
         <module>DeltaFish-manage-service</module>
         <module>DeltaFish-manage-controller</module>

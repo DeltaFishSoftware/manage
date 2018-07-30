@@ -28,9 +28,15 @@
             </dataSource>
         </environment>
     </environments>
+    <!--PageHelper插件-->
 
     <!--PageHelper插件-->
     <mappers>
+
+
+
         <package name="com.DeltaFish.mapper"/>
+
     </mappers>
+
 </configuration>
