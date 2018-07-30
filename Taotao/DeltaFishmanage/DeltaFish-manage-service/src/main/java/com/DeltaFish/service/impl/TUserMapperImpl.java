@@ -40,19 +40,6 @@ public class TUserMapperImpl implements TUserMapper{
     }
 
     @Override
-    public TUser findUserByName(String name) throws Exception {
-        //获得会话对象
-        SqlSession session= MyBatisUtil.getSession();
-        try {
-            //通过MyBatis实现接口TUserMapper，返回实例
-            TUserMapper tUserMapper=session.getMapper(TUserMapper.class);
-            return tUserMapper.findUserByName(name);
-        } finally {
-            session.close();
-        }
-    }
-
-    @Override
     public int deleteUser(String id) throws Exception {
         //获得会话对象
         SqlSession session= MyBatisUtil.getSession();
