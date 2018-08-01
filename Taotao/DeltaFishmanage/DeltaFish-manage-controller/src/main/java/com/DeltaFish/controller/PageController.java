@@ -44,11 +44,11 @@ public class PageController {
      *
      * @return
      * @throws Exception
-     */
+
     @RequestMapping("/Login")
     public String showLogin() {
         return "Login";
-    }
+    }*/
 
 
     /**
@@ -56,11 +56,11 @@ public class PageController {
      *
      * @return
      * @throws Exception
-     */
+
     @RequestMapping("/Register")
     public String showRegister() {
         return "Register";
-    }
+    }*/
 
 
     /**

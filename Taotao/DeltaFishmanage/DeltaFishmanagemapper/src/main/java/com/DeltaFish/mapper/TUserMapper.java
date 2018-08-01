@@ -2,6 +2,7 @@ package com.DeltaFish.mapper;
 
 import com.DeltaFish.pojo.TUser;
 
+import javax.validation.Valid;
 import java.util.List;
 
 public interface TUserMapper {

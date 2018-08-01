@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 
 <html lang="zh">
 
@@ -39,14 +40,14 @@
     <div class="wrapper">
         <div class="container">
             <h2>Thanks for Joining!</h2>
-            <form class="form" action="ReCheck" method="post">
-                <input type="text" placeholder="Nickname" name="user_name">
-                <input type="password" placeholder="Password" name="password">
-                <input type="password" placeholder="Reconfirm" >
-                <input type="text" placeholder="Email" name="email">
-                <input type="text" placeholder="Student ID" name="user_id">
+            <form:form action="addUser" method="post" modelAttribute="tUser">
+                <form:input type="text" placeholder="Nickname" path="userName"/>
+                <form:input type="password" placeholder="Password" path="password"/>
+                <input type="password" placeholder="Reconfirm"/>
+                <form:input type="text" placeholder="Email" path="email"/>
+                <form:input type="text" placeholder="Student ID" path="userId"/>
                 <button type="submit" id="register-button">Register</button>
-            </form>
+            </form:form>
         </div>
     </div>
 </div>

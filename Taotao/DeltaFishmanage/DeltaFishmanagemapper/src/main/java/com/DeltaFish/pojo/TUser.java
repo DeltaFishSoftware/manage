@@ -1,13 +1,27 @@
 package com.DeltaFish.pojo;
 
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.awt.*;
 
+
 public class TUser {
+
+    //@NotNull(message = "学号不能为空！")
     private String userId;
+
+    //@Size(min = 6,max = 20,message = "请输入6-20位密码！")
     private String password;
+
+    @NotNull
+    @Size(min = 3,max = 50,message = "昵称必须为 3 - 50 字符！")
     private String userName;
+
     private int credits;
+
+    //@Email(message = "请输入合法邮箱！")
     private String email;
+
     private String mobile;
     private String lastVisit;
     private String lastIp;
