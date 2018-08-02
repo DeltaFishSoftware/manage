@@ -75,7 +75,7 @@
 
 <div id="header" class="container">
     <div id="logo">
-        <h1><a href="#">DeltaFish</a></h1>
+        <h1><a href="/MainWindow">DeltaFish</a></h1>
     </div>
     <div id="menu">
         <ul>
@@ -88,17 +88,6 @@
     </div>
 </div>
 
-<!-- start header -->
-<div class="wrap">
-    <div class="header">
-        <div class="h_search">
-            <form>
-                <input type="text" value="">
-                <input type="submit" value="">
-            </form>
-        </div>
-    </div>
-</div>
 
 <!-- start main -->
 <div class="main_bg">
@@ -108,17 +97,17 @@
             <div class="gallery1">
                 <div class="container">
                     <ul id="filters" class="clearfix">
-                        <li><span class="filter active" data-filter="app card icon logo web">数学</span></li>
-                        <li><span class="filter" data-filter="app card web">物理</span></li>
-                        <li><span class="filter" data-filter="icon web card">化学</span></li>
-                        <li><span class="filter" data-filter="web app icon card">生物</span></li>
-                        <li><span class="filter" data-filter="icon app web logo">英语</span></li>
+                        <li><span class="filter active" data-filter="app card icon logo web">通修课</span></li>
+                        <li><span class="filter" data-filter="app card web">学科群基础课</span></li>
+                        <li><span class="filter" data-filter="icon web card">专业课</span></li>
+                        <li><span class="filter" data-filter="web app icon card">公选课</span></li>
+                        <li><span class="filter" data-filter="web app logo card">其他</span></li>
                     </ul>
                     <div id="portfoliolist">
                         <div class="portfolio logo1" data-cat="logo">
                             <div class="portfolio-wrapper">
                                 <a href="/Detail">
-                                    <img src="/static/images/book.jpg" alt="">
+                                    <img src="/static/images/book.jpg" alt="Image 2"/>
                                 </a>
                                 <div class="label">
                                     <div class="label-text">
@@ -132,7 +121,7 @@
                         <div class="portfolio app" data-cat="app">
                             <div class="portfolio-wrapper">
                                 <a href="/Detail">
-                                    <img src="/static/images/book.jpg" alt="">
+                                    <img src="/static/images/book.jpg" alt="Image 2"/>
                                 </a>
                                 <div class="label">
                                     <div class="label-text">
@@ -146,7 +135,7 @@
                         <div class="portfolio web" data-cat="web">
                             <div class="portfolio-wrapper">
                                 <a href="/Detail">
-                                    <img src="/static/images/book.jpg" alt="">
+                                    <img src="/static/images/book.jpg" alt="Image 2"/>
                                 </a>
                                 <div class="label">
                                     <div class="label-text">
@@ -160,7 +149,7 @@
                         <div class="portfolio card" data-cat="card">
                             <div class="portfolio-wrapper">
                                 <a href="/Detail">
-                                    <img src="/static/images/book.jpg" alt="">
+                                    <img src="/static/images/book.jpg" alt="Image 2"/>
                                 </a>
                                 <div class="label">
                                     <div class="label-text">
@@ -174,7 +163,7 @@
                         <div class="portfolio app" data-cat="app">
                             <div class="portfolio-wrapper">
                                 <a href="/Detail">
-                                    <img src="/static/images/book.jpg" alt="">
+                                    <img src="/static/images/book.jpg" alt="Image 2"/>
                                 </a>
                                 <div class="label">
                                     <div class="label-text">
@@ -188,7 +177,7 @@
                         <div class="portfolio card" data-cat="card">
                             <div class="portfolio-wrapper">
                                 <a href="/Detail">
-                                    <img src="/static/images/book.jpg" alt="">
+                                    <img src="/static/images/book.jpg" alt="Image 2"/>
                                 </a>
                                 <div class="label">
                                     <div class="label-text">
@@ -202,7 +191,7 @@
                         <div class="portfolio web" data-cat="web">
                             <div class="portfolio-wrapper">
                                 <a href="/Detail">
-                                    <img src="/static/images/book.jpg" alt="">
+                                    <img src="/static/images/book.jpg" alt="Image 2"/>
                                 </a>
                                 <div class="label">
                                     <div class="label-text">
@@ -216,7 +205,7 @@
                         <div class="portfolio card" data-cat="card">
                             <div class="portfolio-wrapper">
                                 <a href="/Detail">
-                                    <img src="/static/images/book.jpg" alt="">
+                                    <img src="/static/images/book.jpg" alt="Image 2"/>
                                 </a>
                                 <div class="label">
                                     <div class="label-text">
@@ -232,7 +221,7 @@
                 </div><!-- container -->
                 <script type="text/javascript" src="/static/js/fliplightbox.min.js"></script>
                 <script type="text/javascript">$('body').flipLightBox()</script>
-                <div class="clear"> </div>
+                <div class="clear"></div>
             </div>
         </div>
     </div>

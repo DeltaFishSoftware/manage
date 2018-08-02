@@ -44,11 +44,12 @@ public class PageController {
      *
      * @return
      * @throws Exception
+     */
 
     @RequestMapping("/Login")
     public String showLogin() {
         return "Login";
-    }*/
+    }
 
 
     /**

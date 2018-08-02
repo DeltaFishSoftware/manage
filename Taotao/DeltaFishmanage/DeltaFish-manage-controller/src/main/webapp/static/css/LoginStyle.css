@@ -8,6 +8,30 @@ body {
     color: #ffffff;
 }
 
+body ::-webkit-input-placeholder {
+    /* WebKit browsers */
+    opacity: 1;
+    font-weight: 300;
+}
+
+body :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    opacity: 1;
+    font-weight: 300;
+}
+
+body ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    opacity: 1;
+    font-weight: 300;
+}
+
+body :-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    opacity: 1;
+    font-weight: 300;
+}
+
 .container {
     overflow: hidden;
     margin: 1em auto;
@@ -154,10 +178,7 @@ body :-ms-input-placeholder {
 .container h2 {
     font-size: 40px;
     font-family: "Microsoft YaHei UI Light";
-    -webkit-transition-duration: 1s;
-    transition-duration: 1s;
-    -webkit-transition-timing-function: ease-in-out;
-    transition-timing-function: ease-in-out;
+
     font-weight: 200;
 }
 

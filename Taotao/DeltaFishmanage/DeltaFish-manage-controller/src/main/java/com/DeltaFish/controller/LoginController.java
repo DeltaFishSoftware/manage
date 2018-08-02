@@ -4,24 +4,28 @@ import com.DeltaFish.pojo.TUser;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+import org.springframework.validation.ObjectError;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.validation.Valid;
+import java.util.List;
 
 
 @Controller
 public class LoginController {
 
-   /* @RequestMapping(value = "/Register")
+    @RequestMapping(value = "/Register")
     public String toRegister(Model model){
-        model.addAttribute("tuser",new TUser());
+        model.addAttribute("tUser",new TUser());
         return "Register";
     }
 
-    @RequestMapping(value = "addUser")
-    public String addUser(Model model, @Valid @ModelAttribute("tuser")TUser tuser, BindingResult  bindingResult) {
+    @RequestMapping(value = "addUser",method = RequestMethod.POST)
+    public String addUser(Model model, @Valid @ModelAttribute("tUser")TUser tUser, BindingResult  bindingResult) {
 
         if (bindingResult.getErrorCount() > 0) {
             List<ObjectError> results = bindingResult.getAllErrors();
@@ -34,15 +38,16 @@ public class LoginController {
 
             return "Register";
         }
-        model.addAttribute("tuser", tuser);
-        System.out.println(tuser.getUserName());
-        System.out.println(tuser.getUserId());
-        System.out.println(tuser.getEmail());
-        System.out.println(tuser.getPassword());
+        model.addAttribute("tUser", tUser);
+        System.out.println(tUser.getUserName());
+        System.out.println(tUser.getUserId());
+        System.out.println(tUser.getEmail());
+        System.out.println(tUser.getPassword());
 
         return "Login";
     }
-*/
+
+   /* /*
     @RequestMapping("/Register")
     public ModelAndView showRegister(Model model){
         model.addAttribute("tUser", new TUser());
@@ -51,22 +56,29 @@ public class LoginController {
         return modelAndView;
     }
 
-    @RequestMapping(value = "addUser", method = RequestMethod.POST)
-    public ModelAndView addUser(@Valid TUser tUser,
-                                         BindingResult bindingResult){
+    @ModelAttribute
+    @RequestMapping(value = "addUser",method = RequestMethod.POST)
+    public ModelAndView addUser(){
 
         ModelAndView modelAndView = new ModelAndView();
 
-        if(bindingResult.hasErrors()){
-            modelAndView.setViewName("Register");
-        }
-        else{
-            modelAndView.setViewName("Login");
-            modelAndView.addObject("tUser", tUser);
-        }
+        TUser tUser = new TUser();
+
+
+        modelAndView.setViewName("Login");
+        modelAndView.addObject("tUser", tUser);
+
+        System.out.println(tUser.getUserName());
+        System.out.println(tUser.getUserId());
+        System.out.println(tUser.getEmail());
+        System.out.println(tUser.getPassword());
 
         return modelAndView;
     }
 
 
+    @RequestMapping(value = "personal",method = RequestMethod.POST)
+    public String toLogin(){
+        return "Mall";
+    }*/
 }

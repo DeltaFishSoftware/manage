@@ -23,15 +23,15 @@
 
 <div id="header" class="container">
     <div id="logo">
-        <h1><a href="#">DeltaFish</a></h1>
+        <h1><a href="MainWindow.html">DeltaFish</a></h1>
     </div>
     <div id="menu">
         <ul>
-            <li><a href="<c:url value="/MainWindow"/>" title="">主页</a></li>
-            <li><a href="<c:url value="/Mall"/>" title="">交易市场</a></li>
-            <li><a href="<c:url value="/AboutUs"/>" title="">关于我们</a></li>
-            <li><a href="<c:url value="/Login"/>" title="">登录</a></li>
-            <li><a href="<c:url value="/Register"/>" title="">注册</a></li>
+            <li><a href="MainWindow.html" title="">主页</a></li>
+            <li><a href="Mall.html" title="">交易市场</a></li>
+            <li><a href="AboutUs.html" title="">关于我们</a></li>
+            <li><a href="Login.html" title="">登录</a></li>
+            <li><a href="Register.html" title="">注册</a></li>
         </ul>
     </div>
 </div>
@@ -39,14 +39,11 @@
 <div id="introduction">
     <div class="container">
         <div class="title">
-            <h2>校园物资共享平台</h2>
+            <h2>校园物资共享系统</h2>
         </div>
-        <div class="description" >
-            <h3>旧物交易、启事共享、借租捐赠</h3>
+        <div class="description">
+            <h3>一个包括旧物交易、启事发布、借租物资等功能的网站平台</h3>
         </div>
-        <ul class="actions">
-            <li><a href="<c:url value="/Mall"/>" class="button">进入商城看一看</a></li>
-        </ul>
     </div>
 </div>
 

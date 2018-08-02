@@ -5,11 +5,12 @@ import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
 
 
+import javax.validation.Valid;
 import java.util.List;
 
 public class TestTUserMapper extends BeforeTUserMapper{
-     @Test
-   public void testSelectAll(){
+    @Test
+    public void testSelectAll(){
         SqlSession sqlSession = getSqlSession();
         try{
             List<TUser> TUserList =
@@ -21,7 +22,7 @@ public class TestTUserMapper extends BeforeTUserMapper{
     }
 
     private void printTUserList(List<TUser> TUserList){
-        for(TUser user1 : TUserList){
+        for( TUser user1 : TUserList){
             System.out.printf(
                     user1.getUserId()+"\n"+
                     user1.getUserName()+"\n"+

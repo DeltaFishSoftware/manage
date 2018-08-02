@@ -16,7 +16,7 @@ import java.util.List;
 public class NeedMapper {
     static TUserMapper tUserMapper;
 
-    @ModelAttribute
+    /*@ModelAttribute
     public static void loadMapper()
     {
         tUserMapper = new TUserMapperImpl();

@@ -8,13 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
-<html lang="zh">
+<html lang="">
 
 <head>
     <meta charset="UTF-8">
     <title>关于我们</title>
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="<c:url value="/static/css/AboutUsStyle.css"/>">
+    <link rel="stylesheet" href="/static/css/AboutUsStyle.css"/>
 </head>
 
 <body>
@@ -36,13 +35,13 @@
                         </clipPath>
                     </defs>
                     <text class='svg-text' dy='.3em' x='50%' y='50%'>
-                        X-rays
+                        邹卫其
                     </text>
                     <g clip-path='url(#clip-0)'>
-                        <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%'
-                               xlink:href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-xrays.png'></image>
+                        <image height='100%' reserveAspectRatio='xMinYMin slice' width='100%'
+                               xlink:href='http://pic.caigoubao.cc/605338/IMG_20180731_130654_processed.jpg'/>
                         <text class='svg-masked-text' dy='.3em' x='50%' y='50%'>
-                            X-rays
+                            邹卫其
                         </text>
                     </g>
                 </svg>
@@ -55,13 +54,13 @@
                         </clipPath>
                     </defs>
                     <text class='svg-text' dy='.3em' x='50%' y='50%'>
-                        Worms
+                        娄雨禛
                     </text>
                     <g clip-path='url(#clip-1)'>
-                        <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%'
-                               xlink:href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-worms.png'></image>
+                        <image height='100%' reserveAspectRatio='xMinYMin slice' width='100%'
+                               xlink:href='http://pic.caigoubao.cc/605338/IMG_20180731_130059_processed.jpg'/>
                         <text class='svg-masked-text' dy='.3em' x='50%' y='50%'>
-                            Worms
+                            娄雨禛
                         </text>
                     </g>
                 </svg>
@@ -74,13 +73,13 @@
                         </clipPath>
                     </defs>
                     <text class='svg-text' dy='.3em' x='50%' y='50%'>
-                        Aurora
+                        曾子轩
                     </text>
                     <g clip-path='url(#clip-2)'>
                         <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%'
-                               xlink:href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-aurora.png'></image>
+                               xlink:href='http://pic.caigoubao.cc/605338/ZZX.jpg'></image>
                         <text class='svg-masked-text' dy='.3em' x='50%' y='50%'>
-                            Aurora
+                            曾子轩
                         </text>
                     </g>
                 </svg>
@@ -93,13 +92,13 @@
                         </clipPath>
                     </defs>
                     <text class='svg-text' dy='.3em' x='50%' y='50%'>
-                        Angus
+                        陈志锴
                     </text>
                     <g clip-path='url(#clip-3)'>
                         <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%'
                                xlink:href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-angus.png'></image>
                         <text class='svg-masked-text' dy='.3em' x='50%' y='50%'>
-                            Angus
+                            陈志锴
                         </text>
                     </g>
                 </svg>
@@ -112,13 +111,13 @@
                         </clipPath>
                     </defs>
                     <text class='svg-text' dy='.3em' x='50%' y='50%'>
-                        Huitzi
+                        DeltaFish
                     </text>
                     <g clip-path='url(#clip-4)'>
                         <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%'
-                               xlink:href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-huitzi.png'></image>
+                               xlink:href='http://pic.caigoubao.cc/605338/DeltaFish.jpg'></image>
                         <text class='svg-masked-text' dy='.3em' x='50%' y='50%'>
-                            Huitzi
+                            DeltaFish
                         </text>
                     </g>
                 </svg>
@@ -131,13 +130,13 @@
                         </clipPath>
                     </defs>
                     <text class='svg-text' dy='.3em' x='50%' y='50%'>
-                        Dalí
+                        李鑫
                     </text>
                     <g clip-path='url(#clip-5)'>
                         <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%'
-                               xlink:href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-dali.png'></image>
+                               xlink:href='http://pic.caigoubao.cc/605338/IMG_20180731_130428_processed.jpg'></image>
                         <text class='svg-masked-text' dy='.3em' x='50%' y='50%'>
-                            Dalí
+                            李鑫
                         </text>
                     </g>
                 </svg>
@@ -150,13 +149,13 @@
                         </clipPath>
                     </defs>
                     <text class='svg-text' dy='.3em' x='50%' y='50%'>
-                        The Bride
+                        艾寅中
                     </text>
                     <g clip-path='url(#clip-6)'>
                         <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%'
                                xlink:href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-bride.png'></image>
                         <text class='svg-masked-text' dy='.3em' x='50%' y='50%'>
-                            The Bride
+                            艾寅中
                         </text>
                     </g>
                 </svg>
@@ -169,13 +168,13 @@
                         </clipPath>
                     </defs>
                     <text class='svg-text' dy='.3em' x='50%' y='50%'>
-                        The Man
+                        刘鼎乾
                     </text>
                     <g clip-path='url(#clip-7)'>
                         <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%'
-                               xlink:href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-man.png'></image>
+                               xlink:href='http://pic.caigoubao.cc/605338/IMG_20180731_130246_processed.jpg'></image>
                         <text class='svg-masked-text' dy='.3em' x='50%' y='50%'>
-                            The Man
+                            刘鼎乾
                         </text>
                     </g>
                 </svg>
@@ -188,24 +187,19 @@
                         </clipPath>
                     </defs>
                     <text class='svg-text' dy='.3em' x='50%' y='50%'>
-                        D
+                        齐天杨
                     </text>
                     <g clip-path='url(#clip-8)'>
                         <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%'
-                               xlink:href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-d.png'></image>
+                               xlink:href='http://pic.caigoubao.cc/605338/IMG_20180731_130144_processed.jpg'></image>
                         <text class='svg-masked-text' dy='.3em' x='50%' y='50%'>
-                            D
+                            齐天杨
                         </text>
                     </g>
                 </svg>
             </div>
         </div>
     </main>
-</div>
-
-<div class='options'>
-    <button class='dark'></button>
-    <button class='light'></button>
 </div>
 
 

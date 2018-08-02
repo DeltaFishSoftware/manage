@@ -1,30 +1,24 @@
 body ::-webkit-input-placeholder {
     /* WebKit browsers */
-    font-family: 'Source Sans Pro', sans-serif;
-    color: white;
+    opacity: 1;
     font-weight: 300;
 }
 
 body :-moz-placeholder {
     /* Mozilla Firefox 4 to 18 */
-    font-family: 'Source Sans Pro', sans-serif;
-    color: white;
     opacity: 1;
     font-weight: 300;
 }
 
 body ::-moz-placeholder {
     /* Mozilla Firefox 19+ */
-    font-family: 'Source Sans Pro', sans-serif;
-    color: white;
     opacity: 1;
     font-weight: 300;
 }
 
 body :-ms-input-placeholder {
     /* Internet Explorer 10+ */
-    font-family: 'Source Sans Pro', sans-serif;
-    color: white;
+    opacity: 1;
     font-weight: 300;
 }
 
@@ -171,9 +165,9 @@ body :-ms-input-placeholder {
 }
 
 .wrapper.form-success .container h2 {
-    -webkit-transform: translateY(85px);
-    -ms-transform: translateY(85px);
-    transform: translateY(85px);
+    -webkit-transform: translateY(150px);
+    -ms-transform: translateY(150px);
+    transform: translateY(150px);
 }
 
 .container {
@@ -187,10 +181,6 @@ body :-ms-input-placeholder {
 .container h2 {
     font-size: 36px;
     font-family: "Microsoft YaHei UI Light";
-    -webkit-transition-duration: 1s;
-    transition-duration: 1s;
-    -webkit-transition-timing-function: ease-in-out;
-    transition-timing-function: ease-in-out;
     font-weight: 200;
 }
 
