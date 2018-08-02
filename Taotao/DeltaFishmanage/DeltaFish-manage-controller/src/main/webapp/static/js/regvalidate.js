@@ -8,13 +8,13 @@ $(document).ready(function() {
             $("#emailinfo .notice").empty();
         }
     }),
-        $("#username").click(function() {
-            var $username = $("#username"),
+        $("#userName").click(function() {
+            var $username = $("#userName"),
                 usernameVal = $.trim($username.val());
             if (usernameVal.length == 0) {
-                $("#usernameinfo .notice").text("请输入3-20位字符的用户名,该用户名将作为您的唯一标识");
+                $("#userNameinfo .notice").text("请输入3-20位字符的用户名,该用户名将作为您的唯一标识");
             } else {
-                $("#usernameinfo .notice").empty();
+                $("#userNameinfo .notice").empty();
             }
         }),
         $("#password").click(function() {
@@ -45,9 +45,9 @@ $(document).ready(function() {
             }
         }),
 
-        $("#email,#username,#password,#password2").change(function() {
+        $("#email,#userName,#password,#password2").change(function() {
             $("#emailinfo .notice").empty();
-            $("#usernameinfo .notice").empty();
+            $("#userNameinfo .notice").empty();
             $("#passwordinfo .notice").empty();
             $("#password2info .notice").empty();
         }),
@@ -60,7 +60,7 @@ $(document).ready(function() {
                     required: true,
                     email: true,
                 },
-                username: {
+                userName: {
                     required: true,
                     minlength: 3,
                     maxlength: 20,
@@ -83,7 +83,7 @@ $(document).ready(function() {
                     email: "请输入一个有效的邮箱地址",
                     remote: "该邮箱已被注册"
                 },
-                username: {
+                userName: {
                     required: "请输入一个3-20位的用户名",
                     minlength: "用户名至少包含3位字符",
                     maxlength: "用户名不得超过20位字符",

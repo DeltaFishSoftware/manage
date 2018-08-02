@@ -233,3 +233,16 @@
 0:0:0:0:0:0:0:1 - - [03/Aug/2018:02:22:14 +0800] "POST /addUser HTTP/1.1" 200 3246 http-bio-8000-exec-5 12
 0:0:0:0:0:0:0:1 - - [03/Aug/2018:02:22:17 +0800] "GET /Register HTTP/1.1" 200 4811 http-bio-8000-exec-7 3
 0:0:0:0:0:0:0:1 - - [03/Aug/2018:02:22:17 +0800] "GET /static/js/regvalidate.js HTTP/1.1" 304 - http-bio-8000-exec-8 5
+0:0:0:0:0:0:0:1 - - [03/Aug/2018:02:31:26 +0800] "GET / HTTP/1.1" 200 1175 http-bio-8000-exec-1 186
+0:0:0:0:0:0:0:1 - - [03/Aug/2018:02:31:29 +0800] "GET /Register.html HTTP/1.1" 200 4811 http-bio-8000-exec-2 53
+0:0:0:0:0:0:0:1 - - [03/Aug/2018:02:31:29 +0800] "GET /static/js/regvalidate.js HTTP/1.1" 200 6210 http-bio-8000-exec-3 22
+0:0:0:0:0:0:0:1 - - [03/Aug/2018:02:31:29 +0800] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 - http-bio-8000-exec-4 11
+0:0:0:0:0:0:0:1 - - [03/Aug/2018:02:31:41 +0800] "POST /addUser HTTP/1.1" 200 3246 http-bio-8000-exec-5 18
+0:0:0:0:0:0:0:1 - - [03/Aug/2018:02:31:59 +0800] "GET /Register HTTP/1.1" 200 4811 http-bio-8000-exec-7 4
+0:0:0:0:0:0:0:1 - - [03/Aug/2018:02:38:10 +0800] "GET / HTTP/1.1" 200 1175 http-bio-8000-exec-1 180
+0:0:0:0:0:0:0:1 - - [03/Aug/2018:02:38:19 +0800] "GET /Register.html HTTP/1.1" 200 4807 http-bio-8000-exec-2 929
+0:0:0:0:0:0:0:1 - - [03/Aug/2018:02:38:19 +0800] "GET /static/js/regvalidate.js HTTP/1.1" 200 6210 http-bio-8000-exec-4 22
+0:0:0:0:0:0:0:1 - - [03/Aug/2018:02:38:57 +0800] "GET / HTTP/1.1" 200 1175 http-bio-8000-exec-6 2
+0:0:0:0:0:0:0:1 - - [03/Aug/2018:02:38:59 +0800] "GET /Register.html HTTP/1.1" 200 4807 http-bio-8000-exec-7 4
+0:0:0:0:0:0:0:1 - - [03/Aug/2018:02:38:59 +0800] "GET /static/js/regvalidate.js HTTP/1.1" 304 - http-bio-8000-exec-9 7
+0:0:0:0:0:0:0:1 - - [03/Aug/2018:02:39:07 +0800] "POST /addUser HTTP/1.1" 200 3246 http-bio-8000-exec-10 16

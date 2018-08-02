@@ -40,7 +40,6 @@ public class LoginController {
         }
         model.addAttribute("tUser", tUser);
         System.out.println(tUser.getUserName());
-        System.out.println(tUser.getUserId());
         System.out.println(tUser.getEmail());
         System.out.println(tUser.getPassword());
 
