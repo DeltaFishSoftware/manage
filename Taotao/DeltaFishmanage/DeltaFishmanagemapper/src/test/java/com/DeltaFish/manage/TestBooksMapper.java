@@ -7,14 +7,13 @@ import org.junit.Test;
 
 
 public class TestBooksMapper extends BeforeBooksMapper{
-    @Test
+   @Test
     public void testInsertUser(){
         SqlSession sqlSession = getSqlSession();
         try{
             // 获取RoleMapper接口
             BooksMapper roleMapper = sqlSession.getMapper(BooksMapper.class);
             Books sysRole = new Books();
-            sysRole.setOwnerId("PB16002222");
             sysRole.setBookId("a11111111");
             sysRole.setBookName("东方树叶");
             sysRole.setEdition("第一版");
@@ -29,4 +28,74 @@ public class TestBooksMapper extends BeforeBooksMapper{
             sqlSession.close();
         }
     }
+/*
+    public void testFindBookById(){
+        SqlSession sqlSession = getSqlSession();
+        try{
+            BooksMapper roleMapper = sqlSession.getMapper(BooksMapper.class);
+            Books sysRole = roleMapper.findBookById("11111");
+            System.out.print(sysRole.getBookId());
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            sqlSession.close();
+        }
+    }
+*/
+/*
+    public void testFindBookByAurthor(){
+        SqlSession sqlSession = getSqlSession();
+        try{
+            BooksMapper roleMapper = sqlSession.getMapper(BooksMapper.class);
+            Books sysRole = (Books) roleMapper.findBookByAuthor("xxx");
+            System.out.print(sysRole.getBookId());
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            sqlSession.close();
+        }
+    }
+    */
+/*
+    public void testFindBookByName(){
+        SqlSession sqlSession = getSqlSession();
+        try{
+            BooksMapper roleMapper = sqlSession.getMapper(BooksMapper.class);
+            Books sysRole = (Books) roleMapper.findBookByName("xxx");
+            System.out.print(sysRole.getBookId());
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            sqlSession.close();
+        }
+    }
+    */
+/*
+public void testFindBookByPress(){
+    SqlSession sqlSession = getSqlSession();
+    try{
+        BooksMapper roleMapper = sqlSession.getMapper(BooksMapper.class);
+        Books sysRole = (Books) roleMapper.findBookByPress("xxx");
+        System.out.print(sysRole.getBookId());
+    } catch (Exception e) {
+        e.printStackTrace();
+    } finally {
+        sqlSession.close();
+    }
+}
+*/
+/*
+    public void testFindBookByOwner(){
+        SqlSession sqlSession = getSqlSession();
+        try{
+            BooksMapper roleMapper = sqlSession.getMapper(BooksMapper.class);
+            Books sysRole = (Books) roleMapper.findBookByOwner("xxx");
+            System.out.print(sysRole.getBookId());
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            sqlSession.close();
+        }
+    }
+*/
 }
