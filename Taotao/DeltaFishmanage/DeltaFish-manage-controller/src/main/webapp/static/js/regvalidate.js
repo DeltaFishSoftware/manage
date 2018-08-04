@@ -3,7 +3,7 @@ $(document).ready(function() {
         var $email = $("#email"),
             emailVal = $.trim($email.val());
         if (emailVal.length == 0) {
-            $("#emailinfo .notice").text("请输入一个有效的邮箱地址，该地址可作为您的登录名");
+            $("#emailinfo .notice").text("请输入一个有效的邮箱地址");
         } else {
             $("#emailinfo .notice").empty();
         }
@@ -12,7 +12,7 @@ $(document).ready(function() {
             var $username = $("#userName"),
                 usernameVal = $.trim($username.val());
             if (usernameVal.length == 0) {
-                $("#userNameinfo .notice").text("请输入3-20位字符的用户名,该用户名将作为您的唯一标识");
+                $("#userNameinfo .notice").text("请输入 3-20 位字符的用户名,作为您的唯一标识");
             } else {
                 $("#userNameinfo .notice").empty();
             }
@@ -21,7 +21,7 @@ $(document).ready(function() {
             var $password = $("#password"),
                 passwordVal = $.trim($password.val());
             if (passwordVal.length == 0) {
-                $("#passwordinfo .notice").text("请输入6-16位数字、字母或常用符号，字母区分大小写");
+                $("#passwordinfo .notice").text("请输入 6-16 位数字、字母或常用符号，字母区分大小写");
             } else {
                 $("#passwordinfo .notice").empty();
             }
@@ -58,12 +58,12 @@ $(document).ready(function() {
             rules: {
                 email: {
                     required: true,
-                    email: true,
+                    email: true
                 },
                 userName: {
                     required: true,
                     minlength: 3,
-                    maxlength: 20,
+                    maxlength: 20
                 },
                 password: {
                     required: true,
@@ -75,7 +75,7 @@ $(document).ready(function() {
                     minlength: 6,
                     maxlength: 16,
                     equalTo: "#password"
-                },
+                }
             },
             messages: {
                 email: {
@@ -135,8 +135,6 @@ $(document).ready(function() {
                 }
 
             },
-
-
             highlight: function(element, errorClass, validClass) {
                 $(element).parents(".input-group").addClass("has-error").removeClass("has-success");
                 $(element).next("span").addClass("glyphicon-remove").removeClass("glyphicon-ok");
@@ -146,11 +144,7 @@ $(document).ready(function() {
                 $(element).next("span").addClass("glyphicon-ok").removeClass("glyphicon-remove");
             },
 
-
-
         });
-
-
 
 });
 

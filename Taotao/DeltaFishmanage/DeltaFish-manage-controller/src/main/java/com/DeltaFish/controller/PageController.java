@@ -44,13 +44,13 @@ public class PageController {
      *
      * @return
      * @throws Exception
-     */
+
 
     @RequestMapping("/Login")
     public String showLogin() {
         return "Login";
     }
-
+*/
 
     /**
      * 跳转注册页

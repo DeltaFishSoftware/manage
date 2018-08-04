@@ -1,3 +1,4 @@
 com\DeltaFish\controller\NeedMapper.class
+com\DeltaFish\controller\RegisterController.class
 com\DeltaFish\controller\PageController.class
 com\DeltaFish\controller\LoginController.class
