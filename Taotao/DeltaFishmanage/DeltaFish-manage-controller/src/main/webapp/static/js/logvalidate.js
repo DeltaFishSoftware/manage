@@ -1,4 +1,13 @@
 $(document).ready(function() {
+    $("#email").click(function() {
+        var $email = $("#email"),
+            emailVal = $.trim($email.val());
+        if (emailVal.length == 0) {
+            $("#emailinfo .notice").text("请输入一个有效的邮箱地址");
+        } else {
+            $("#emailinfo .notice").empty();
+        }
+    }),
         $("#userName").click(function() {
             var $username = $("#userName"),
                 usernameVal = $.trim($username.val());
@@ -17,16 +26,40 @@ $(document).ready(function() {
                 $("#passwordinfo .notice").empty();
             }
         }),
-
-        $("#userName,#password").change(function() {
-            $("#userNameinfo .notice").empty();
-            $("#passwordinfo .notice").empty();
+        $("#password2").click(function() {
+            var $password2 = $("#password2"),
+                password2Val = $.trim($password2.val());
+            if (password2Val.length == 0) {
+                $("#password2info .notice").text("请输入6-16位数字、字母或常用符号，字母区分大小写");
+            } else {
+                $("#password2info .notice").empty();
+            }
+        }),
+        $("#captcha").click(function() {
+            var $captcha = $("#captcha"),
+                captchaVal = $.trim($captcha.val());
+            if (captchaVal.length == 0) {
+                $("#captchainfo .notice").text("请输入图片中的验证码");
+            } else {
+                $("#captchainfo .notice").empty();
+            }
         }),
 
-        $("#regform").validate({
+        $("#email,#userName,#password,#password2").change(function() {
+            $("#emailinfo .notice").empty();
+            $("#userNameinfo .notice").empty();
+            $("#passwordinfo .notice").empty();
+            $("#password2info .notice").empty();
+        }),
+
+        $("#logform").validate({
 
             ignore: ".ignore",
             rules: {
+                email: {
+                    required: true,
+                    email: true
+                },
                 userName: {
                     required: true,
                     minlength: 3,
@@ -37,8 +70,19 @@ $(document).ready(function() {
                     minlength: 6,
                     maxlength: 16
                 },
+                password2: {
+                    required: true,
+                    minlength: 6,
+                    maxlength: 16,
+                    equalTo: "#password"
+                }
             },
             messages: {
+                email: {
+                    required: "请输入一个有效的邮箱地址",
+                    email: "请输入一个有效的邮箱地址",
+                    remote: "该邮箱已被注册"
+                },
                 userName: {
                     required: "请输入一个3-20位的用户名",
                     minlength: "用户名至少包含3位字符",
@@ -50,6 +94,16 @@ $(document).ready(function() {
                     minlength: "密码至少要包含6位字符",
                     maxlength: "密码不得超过16位字符"
                 },
+                password2: {
+                    required: "请输入一个有效的密码",
+                    minlength: "密码至少要包含6位字符",
+                    maxlength: "密码不得超过16位字符",
+                    equalTo: "两次密码输入不一致"
+                },
+                captcha: {
+                    required: "请输入验证码",
+                    remote: "验证码错误"
+                }
             },
             errorElement: "span",
             debug:false,
