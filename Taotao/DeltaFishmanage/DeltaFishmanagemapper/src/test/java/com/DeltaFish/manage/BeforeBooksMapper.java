@@ -12,7 +12,7 @@ import java.io.Reader;
 public class BeforeBooksMapper {
     private static SqlSessionFactory sqlSessionFactory;
     @BeforeClass
-    public static void init(){
+    public static void initBook(){
         try{
             Reader reader = Resources.getResourceAsReader("SqlMapConfig.xml");
             sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);

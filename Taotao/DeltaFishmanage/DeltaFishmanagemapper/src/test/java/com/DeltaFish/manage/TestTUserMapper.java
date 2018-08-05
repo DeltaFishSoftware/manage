@@ -1,5 +1,9 @@
 package com.DeltaFish.manage;
 
+import com.DeltaFish.mapper.BookMapper;
+import com.DeltaFish.mapper.TUserMapper;
+import com.DeltaFish.pojo.Book;
+import com.DeltaFish.pojo.BookExample;
 import com.DeltaFish.pojo.TUser;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
@@ -34,4 +38,25 @@ public class TestTUserMapper extends BeforeTUserMapper{
 
         }
     }
+
+    @Test
+    public void testInsert() {
+        SqlSession session = getSqlSession();
+        try {
+            TUserMapper tUserMapper = session.getMapper(TUserMapper.class);
+            TUser tUser = new TUser();
+            tUser.setUserName("testuser");
+            tUser.setUserId("PB16061470");
+            tUser.setEmail("fucking");
+            tUser.setPassword("1234");
+
+            tUserMapper.insertUser(tUser);
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println("failed to insert");
+        }finally {
+            session.close();
+        }
+    }
+
 }

@@ -1,4 +1,2 @@
 com\DeltaFish\mapper\TUserMapper.class
 com\DeltaFish\pojo\TUser.class
-com\DeltaFish\pojo\Books.class
-com\DeltaFish\mapper\BooksMapper.class

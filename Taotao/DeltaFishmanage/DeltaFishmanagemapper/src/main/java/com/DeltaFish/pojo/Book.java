@@ -1,18 +1,27 @@
 package com.DeltaFish.pojo;
 
-public class Books {
+public class Book {
     private String ownerId;
+
     private String bookName;
+
     private String edition;
+
     private String author;
+
     private String press;
+
     private String introduction;
+
     private String operation;
+
     private String link;
+
     private String comment;
+
     private String bookId;
 
-    public Books(String ownerId, String bookName, String edition, String author, String press, String introduction, String operation, String link, String comment) {
+    public Book(String ownerId, String bookName, String edition, String author, String press, String introduction, String operation, String link, String comment, String bookId) {
         this.ownerId = ownerId;
         this.bookName = bookName;
         this.edition = edition;
@@ -25,7 +34,7 @@ public class Books {
         this.bookId = bookId;
     }
 
-    public Books() {
+    public Book() {
         super();
     }
 
@@ -34,7 +43,7 @@ public class Books {
     }
 
     public void setOwnerId(String ownerId) {
-        this.ownerId = ownerId;
+        this.ownerId = ownerId == null ? null : ownerId.trim();
     }
 
     public String getBookName() {
@@ -45,7 +54,7 @@ public class Books {
         this.bookName = bookName == null ? null : bookName.trim();
     }
 
-    public String getEdition(String edition) {
+    public String getEdition() {
         return edition;
     }
 
@@ -108,5 +117,4 @@ public class Books {
     public void setBookId(String bookId) {
         this.bookId = bookId == null ? null : bookId.trim();
     }
-
 }

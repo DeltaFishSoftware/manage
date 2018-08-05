@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
 <mapper namespace="com.DeltaFish.mapper.BooksMapper" >
+
   <resultMap id="BaseResultMap" type="com.DeltaFish.pojo.Books" >
-    <constructor >
-      <arg column="owner_id" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column="book_name" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column="edition" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column="author" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column="press" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column="introduction" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column="operation" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column=" link" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column="comment" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column="book_id" jdbcType="VARCHAR" javaType="java.lang.String" />
-    </constructor>
+  <!--  <constructor >-->
+      <result column="owner_id" property="ownerId" jdbcType="VARCHAR" />
+      <result column="book_name"  property="bookName" jdbcType="VARCHAR"  />
+      <result column="edition" property="edition" jdbcType="VARCHAR" />
+      <result column="author" property="author" jdbcType="VARCHAR" />
+      <result column="press" property="press" jdbcType="VARCHAR"/>
+      <result column="introduction" property="introduction" jdbcType="VARCHAR" />
+      <result column="operation" property="operation" jdbcType="VARCHAR"  />
+      <result column=" link" property="link" jdbcType="VARCHAR" />
+      <result column="comment" property="comment" jdbcType="VARCHAR" />
+      <result column="book_id" property="bookId" jdbcType="VARCHAR" />
+ <!--   </constructor>-->
   </resultMap>
 
   <insert id="insertBook" parameterType="com.DeltaFish.pojo.Books" >
@@ -28,7 +30,7 @@
     insert into books
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="ownerId != null" >
-        book_name,
+        owner_id,
       </if>
       <if test="bookName != null" >
         book_name,
@@ -92,27 +94,28 @@
     </trim>
   </insert>
 
+
   <delete id="deleteBook" parameterType="String">
     delete from books where book_id=#{bookId}
   </delete>
 
-  <select id="findBookById" parameterType="String" resultType="com.DeltaFish.pojo.TUser">
+  <select id="findBookById" parameterType="String" resultType="com.DeltaFish.pojo.Books">
     select * from books where book_id= #{bookId}
   </select>
 
-  <select id="findBookByName" parameterType="String" resultType="com.DeltaFish.pojo.TUser">
+  <select id="findBookByName" parameterType="String" resultType="com.DeltaFish.pojo.Books">
     select * from books where book_name= #{bookName}
   </select>
 
-  <select id="findBookByAuthor" parameterType="String" resultType="com.DeltaFish.pojo.TUser">
+  <select id="findBookByAuthor" parameterType="String" resultType="com.DeltaFish.pojo.Books">
     select * from books where author= #{author}
   </select>
 
-  <select id="findBookByPress" parameterType="String" resultType="com.DeltaFish.pojo.TUser">
+  <select id="findBookByPress" parameterType="String" resultType="com.DeltaFish.pojo.Books">
     select * from books where press= #{press}
   </select>
 
-  <select id="findBookByOwner" parameterType="String" resultType="com.DeltaFish.pojo.TUser">
+  <select id="findBookByOwner" parameterType="String" resultType="com.DeltaFish.pojo.Books">
     select * from books where owner_id= #{ownerId}
   </select>
 </mapper>

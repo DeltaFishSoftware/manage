@@ -55,6 +55,13 @@
         <item name="deltafish@47.106.166.236" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="deltafish: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="books: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="数据库" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="deltafish@47.106.166.236" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="deltafish: schema" type="c314c289:MysqlImplModel$Schema" />
         <item name="t_user: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
@@ -62,134 +69,94 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Register.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/WEB-INF/jsp/Register.jsp">
+      <file leaf-file-name="Book.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/java/com/DeltaFish/pojo/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="347">
+              <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="regvalidate.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/static/js/regvalidate.js">
+      <file leaf-file-name="BookExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/java/com/DeltaFish/pojo/BookExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1452">
-              <caret line="37" column="39" lean-forward="true" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
-              <folding>
-                <element signature="e#68#320#0" expanded="false" />
-                <element signature="e#363#681#0" expanded="false" />
-                <element signature="e#724#1045#0" expanded="false" />
-                <element signature="e#1089#1415#0" expanded="false" />
-                <element signature="e#2115#2737#0" expanded="false" />
-                <element signature="e#2786#2932#0" expanded="false" />
-                <element signature="e#3369#3565#0" expanded="false" />
-                <element signature="e#3592#3687#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="962">
+              <caret line="97" column="9" lean-forward="false" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logvalidate.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/static/js/logvalidate.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1088">
-              <caret line="51" column="48" lean-forward="true" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
-              <folding>
-                <element signature="e#64#316#0" expanded="false" />
-                <element signature="e#359#677#0" expanded="false" />
-                <element signature="e#720#1041#0" expanded="false" />
-                <element signature="e#1085#1411#0" expanded="false" />
-                <element signature="e#1453#1749#0" expanded="false" />
-                <element signature="e#2111#2733#0" expanded="false" />
-                <element signature="e#2782#2928#0" expanded="false" />
-                <element signature="e#3365#3561#0" expanded="false" />
-                <element signature="e#3588#3683#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/WEB-INF/jsp/Login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-282">
-              <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-              <folding>
-                <element signature="e#1413#2209#0#JSP" expanded="false" />
-                <element signature="e#3626#4388#0#JSP" expanded="false" />
-                <marker date="1533402031709" expanded="false" signature="2114:2128" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/java/com/DeltaFish/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="676">
-              <caret line="43" column="77" lean-forward="false" selection-start-line="43" selection-start-column="77" selection-end-line="43" selection-end-column="77" />
+            <state relative-caret-position="321">
+              <caret line="60" column="29" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/java/com/DeltaFish/controller/PageController.java">
+      <file leaf-file-name="TestTUserMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/test/java/com/DeltaFish/manage/TestTUserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4">
-              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state relative-caret-position="1248">
+              <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/java/com/DeltaFish/mapper/BookMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBooksMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/test/java/com/DeltaFish/manage/TestBooksMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2834">
+              <caret line="109" column="38" lean-forward="true" selection-start-line="109" selection-start-column="38" selection-end-line="109" selection-end-column="38" />
               <folding>
-                <element signature="e#1295#1296#0" expanded="true" />
-                <element signature="e#1324#1325#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/java/com/DeltaFish/controller/RegisterController.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-364">
-              <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+            <state relative-caret-position="255">
+              <caret line="132" column="23" lean-forward="true" selection-start-line="132" selection-start-column="23" selection-end-line="132" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NeedMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/java/com/DeltaFish/controller/NeedMapper.java">
+      <file leaf-file-name="MyBatisUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-service/src/main/java/com/DeltaFish/service/MyBatisUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="784">
-              <caret line="49" column="30" lean-forward="false" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+            <state relative-caret-position="-109">
+              <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TUserMapperImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-service/src/main/java/com/DeltaFish/service/impl/TUserMapperImpl.java">
+      <file leaf-file-name="BeforeBooksMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/test/java/com/DeltaFish/manage/BeforeBooksMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+            <state relative-caret-position="104">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TUserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/java/com/DeltaFish/mapper/TUserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-              <folding>
-                <marker date="1533147265413" expanded="true" signature="1175:1371" ph="insert into t_user... " />
-                <marker date="1533147265413" expanded="true" signature="1462:1562" ph="select user_... t_user" />
-                <marker date="1533147265413" expanded="true" signature="1678:1723" ph="select * fro... t_user" />
-                <marker date="1533147265413" expanded="true" signature="1841:1890" ph="SELECT * FRO... t_user" />
-                <marker date="1533147265413" expanded="true" signature="1966:2008" ph="delete from t_user... " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -210,6 +177,7 @@
       <find>mvc</find>
       <find>delta</find>
       <find>NAME</find>
+      <find>TUserMapper</find>
     </findStrings>
     <dirStrings>
       <dir>E:\tryandtry\Taotao\DeltaFishmanagepojo</dir>
@@ -223,23 +191,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/test/resource/jdbc.properties" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/40760741-ae25-4f72-9b3e-ab892acdc0fe/console.sql" />
-        <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-service/src/test/java/TestTUserMapperImpl.java" />
-        <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/test/resource/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/DeltaFishmanage/pom.xml" />
-        <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-service/pom.xml" />
-        <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/static/css/MainWindowStyle.css" />
         <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/resources/mybatis/jdbc.properties" />
         <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/resources/mybatis/SqlMapConfig.xml" />
         <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/resources/spring/applicationContext-dao.xml" />
-        <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/test/java/com/DeltaFish/manage/TestBooksMapper.java" />
         <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/DeltaFishmanagemapper.iml" />
-        <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/java/com/DeltaFish/mapper/BooksMapper.java" />
         <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/WEB-INF/jsp/Detail.jsp" />
         <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/WEB-INF/jsp/Homepage.jsp" />
-        <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/java/com/DeltaFish/mapper/TUserMapper.xml" />
-        <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-service/src/main/java/com/DeltaFish/service/impl/TUserMapperImpl.java" />
         <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-service/src/main/java/com/DeltaFish/service/toLogin.java" />
         <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-service/src/main/java/com/DeltaFish/service/login/toLogin.java" />
         <option value="$PROJECT_DIR$/DeltaFishparent/pom.xml" />
@@ -248,7 +205,6 @@
         <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanage.iml" />
         <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/pom.xml" />
         <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/resources/spring/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/pom.xml" />
         <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/test/java/com/DeltaFish/manage/TestValid.java" />
         <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/test/java/com/DeltaFish/manage/testvalid.java" />
         <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/WEB-INF/web.xml" />
@@ -266,14 +222,26 @@
         <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/java/com/DeltaFish/utils/Md5.java" />
         <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/java/com/DeltaFish/pojo/TUser.java" />
         <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/WEB-INF/jsp/Register.jsp" />
-        <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/test/java/com/DeltaFish/manage/TestTUserMapper.java" />
         <option value="src:table:/99e84782/ec4fb9f3-53c7-4d9f-b517-ee1e1b44f0b8/deltafish.t_user" />
         <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/java/com/DeltaFish/controller/RegisterController.java" />
         <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/java/com/DeltaFish/controller/PageController.java" />
         <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/static/js/regvalidate.js" />
         <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/WEB-INF/jsp/Login.jsp" />
         <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/static/js/logvalidate.js" />
+        <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-service/src/main/java/com/DeltaFish/service/impl/TUserMapperImpl.java" />
+        <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/test/java/com/DeltaFish/manage/BeforeBooksMapper.java" />
+        <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/test/java/com/DeltaFish/manage/BeforeTUserMapper.java" />
+        <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/java/com/DeltaFish/mapper/BooksMapper.xml" />
+        <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-service/src/main/java/com/DeltaFish/service/impl/BooksMapperImpl.java" />
+        <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/java/com/DeltaFish/mapper/TUserMapper.xml" />
+        <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/resources/generatorConfig.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ec4fb9f3-53c7-4d9f-b517-ee1e1b44f0b8/console.sql" />
         <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/java/com/DeltaFish/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/java/com/DeltaFish/mapper/BooksMapper.java" />
+        <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/java/com/DeltaFish/pojo/Books.java" />
+        <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/test/java/com/DeltaFish/manage/TestTUserMapper.java" />
+        <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/pom.xml" />
+        <option value="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/test/java/com/DeltaFish/manage/TestBooksMapper.java" />
       </list>
     </option>
   </component>
@@ -345,34 +313,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Taotao" type="58d84e3e:PackageViewProjectNode" />
-              <item name="DeltaFishcommon" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="Taotao" type="58d84e3e:PackageViewProjectNode" />
-              <item name="DeltaFishcommon" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Taotao" type="58d84e3e:PackageViewProjectNode" />
-              <item name="DeltaFishcommon" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="DeltaFish" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Taotao" type="58d84e3e:PackageViewProjectNode" />
-              <item name="DeltaFishmanage" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -431,6 +373,23 @@
               <item name="DeltaFish-manage-controller" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeltaFishmanage" type="462c0819:PsiDirectoryNode" />
+              <item name="DeltaFish-manage-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeltaFishmanage" type="462c0819:PsiDirectoryNode" />
+              <item name="DeltaFish-manage-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -450,16 +409,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Taotao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeltaFishmanage" type="462c0819:PsiDirectoryNode" />
-              <item name="DeltaFish-manage-controller" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Taotao" type="b2602c69:ProjectViewProjectNode" />
@@ -505,21 +454,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Taotao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeltaFishmanage" type="462c0819:PsiDirectoryNode" />
-              <item name="DeltaFish-manage-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Taotao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeltaFishmanage" type="462c0819:PsiDirectoryNode" />
-              <item name="DeltaFish-manage-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Taotao" type="b2602c69:ProjectViewProjectNode" />
@@ -604,7 +538,33 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Taotao" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DeltaFishcommon" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="Taotao" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DeltaFishcommon" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Taotao" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DeltaFishcommon" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="DeltaFish" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Taotao" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DeltaFishmanage" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -680,6 +640,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="TestBooksMapper.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.DeltaFish.manage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DeltaFishmanagemapper" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.DeltaFish.manage" />
+      <option name="MAIN_CLASS_NAME" value="com.DeltaFish.manage.TestBooksMapper" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="TestTUserMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -705,34 +690,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TestTUserMapperImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="DeltaFish-manage-service" />
+    <configuration name="TestTUserMapper.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.DeltaFish.manage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DeltaFishmanagemapper" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestTUserMapperImpl" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="TestTUserMapperImpl.testSelectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="DeltaFish-manage-service" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestTUserMapperImpl" />
-      <option name="METHOD_NAME" value="testSelectAll" />
+      <option name="PACKAGE_NAME" value="com.DeltaFish.manage" />
+      <option name="MAIN_CLASS_NAME" value="com.DeltaFish.manage.TestTUserMapper" />
+      <option name="METHOD_NAME" value="testInsert" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -913,19 +883,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Maven.generator" />
       <item index="1" class="java.lang.String" itemvalue="Maven.tomcat:7" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestTUserMapper.testSelectAll" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestTUserMapperImpl.testSelectAll" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestBooksMapper" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.TestTUserMapper" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.TestTUserMapperImpl" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestBooksMapper" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestTUserMapper" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestTUserMapper.testInsert" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.TestBooksMapper.testInsert" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.TestTUserMapper.testSelectAll" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestTUserMapperImpl" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestTUserMapper" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestBooksMapper" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestTUserMapperImpl.testSelectAll" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestTUserMapper.testSelectAll" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestBooksMapper.testInsert" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestTUserMapper.testSelectAll" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestTUserMapper.testInsert" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestBooksMapper" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestTUserMapper" />
       </list>
     </recent_temporary>
   </component>
@@ -992,44 +962,46 @@
       <workItem from="1533124791387" duration="3987000" />
       <workItem from="1533200028052" duration="15362000" />
       <workItem from="1533215673391" duration="19751000" />
-      <workItem from="1533366481414" duration="15210000" />
+      <workItem from="1533366481414" duration="15822000" />
+      <workItem from="1533404067480" duration="6370000" />
+      <workItem from="1533434455072" duration="5866000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestBooksMapper - 2018.07.30 at 23h 46m 19s.xml">
+    <history-entry file="TestBooksMapper - 2018.08.05 at 11h 20m 13s.xml">
       <configuration name="TestBooksMapper" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBooksMapper - 2018.07.30 at 23h 53m 02s.xml">
-      <configuration name="TestBooksMapper" configurationId="JUnit" />
+    <history-entry file="TestBooksMapper_testInsert - 2018.08.05 at 11h 28m 05s.xml">
+      <configuration name="TestBooksMapper.testInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestTUserMapper - 2018.08.02 at 10h 30m 44s.xml">
-      <configuration name="TestTUserMapper" configurationId="JUnit" />
+    <history-entry file="TestBooksMapper_testInsert - 2018.08.05 at 11h 37m 30s.xml">
+      <configuration name="TestBooksMapper.testInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestTUserMapper - 2018.08.02 at 10h 39m 52s.xml">
-      <configuration name="TestTUserMapper" configurationId="JUnit" />
+    <history-entry file="TestBooksMapper_testInsert - 2018.08.05 at 11h 38m 18s.xml">
+      <configuration name="TestBooksMapper.testInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestTUserMapper - 2018.08.04 at 15h 58m 28s.xml">
-      <configuration name="TestTUserMapper" configurationId="JUnit" />
+    <history-entry file="TestTUserMapper_testInsert - 2018.08.05 at 11h 22m 43s.xml">
+      <configuration name="TestTUserMapper.testInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestTUserMapperImpl - 2018.08.04 at 15h 59m 20s.xml">
-      <configuration name="TestTUserMapperImpl" configurationId="JUnit" />
+    <history-entry file="TestTUserMapper_testInsert - 2018.08.05 at 11h 29m 35s.xml">
+      <configuration name="TestTUserMapper.testInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestTUserMapperImpl - 2018.08.04 at 16h 07m 02s.xml">
-      <configuration name="TestTUserMapperImpl" configurationId="JUnit" />
+    <history-entry file="TestTUserMapper_testInsert - 2018.08.05 at 11h 30m 36s.xml">
+      <configuration name="TestTUserMapper.testInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestTUserMapperImpl_testSelectAll - 2018.07.30 at 23h 04m 53s.xml">
-      <configuration name="TestTUserMapperImpl.testSelectAll" configurationId="JUnit" />
+    <history-entry file="TestTUserMapper_testInsert - 2018.08.05 at 11h 31m 39s.xml">
+      <configuration name="TestTUserMapper.testInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestTUserMapperImpl_testSelectAll - 2018.07.30 at 23h 38m 55s.xml">
-      <configuration name="TestTUserMapperImpl.testSelectAll" configurationId="JUnit" />
+    <history-entry file="TestTUserMapper_testInsert - 2018.08.05 at 11h 34m 32s.xml">
+      <configuration name="TestTUserMapper.testInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestTUserMapper_testSelectAll - 2018.07.30 at 23h 38m 23s.xml">
+    <history-entry file="TestTUserMapper_testSelectAll - 2018.08.05 at 11h 35m 35s.xml">
       <configuration name="TestTUserMapper.testSelectAll" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210765000" />
+    <option name="totallyTimeSpent" value="223613000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1045,11 +1017,10 @@
     <editor active="true" />
     <layout>
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54333335" sideWeight="0.5107991" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30723542" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="设计师" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2462203" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2640389" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494382" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1062,10 +1033,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.49568033" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53555554" sideWeight="0.48920086" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53555554" sideWeight="0.48920086" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="控制板" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5896328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28401726" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1074,6 +1046,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="数据库" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08099352" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1081,23 +1054,22 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3227848" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6251969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32832617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.49352053" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.49352053" order="18" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45444444" sideWeight="0.50863934" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54333335" sideWeight="0.5107991" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30723542" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="设计师" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12095033" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2661987" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494382" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="数据库" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08099352" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1112,20 +1084,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6251969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.49568033" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6251969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54333335" sideWeight="0.4913607" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.53555554" sideWeight="0.48920086" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="控制板" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2786177" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28401726" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32832617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.49352053" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.49352053" order="18" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1141,7 +1113,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="49" />
+      <option name="time" value="55" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="MavenRunConfiguration">
@@ -1163,296 +1135,365 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/test/java/com/DeltaFish/controller/TestPageHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="104">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/99e84782/ec4fb9f3-53c7-4d9f-b517-ee1e1b44f0b8/deltafish.t_user">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/static/js/regvalidate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="37" column="39" lean-forward="false" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/WEB-INF/jsp/Register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/java/com/DeltaFish/controller/NeedMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="49" column="30" lean-forward="false" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/static/js/logvalidate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="51" column="48" lean-forward="false" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/WEB-INF/jsp/Login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="39" column="41" lean-forward="false" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/java/com/DeltaFish/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
           <folding>
-            <element signature="n#context-param#0;n#web-app#0;n#!!top" expanded="false" />
-            <element signature="n#listener#0;n#web-app#0;n#!!top" expanded="false" />
-            <element signature="n#servlet#0;n#web-app#0;n#!!top" expanded="false" />
-            <element signature="n#servlet-mapping#0;n#web-app#0;n#!!top" expanded="false" />
-            <element signature="n#filter#0;n#web-app#0;n#!!top" expanded="false" />
-            <element signature="n#filter-mapping#0;n#web-app#0;n#!!top" expanded="false" />
+            <element signature="e#1295#1296#0" expanded="false" />
+            <element signature="e#1324#1325#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/resources/SqlMapConfig.xml">
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/java/com/DeltaFish/controller/RegisterController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/WEB-INF/jsp/Homepage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1014">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="104">
+          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/WEB-INF/jsp/404.jsp">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.8/mybatis-3.2.8-sources.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-234">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="216">
+          <caret line="95" column="9" lean-forward="false" selection-start-line="95" selection-start-column="2" selection-end-line="95" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/WEB-INF/jsp/1.jsp">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.8/mybatis-3.2.8-sources.jar!/org/apache/ibatis/binding/MapperProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="105">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/WEB-INF/jsp/MainWindow.jsp">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="89">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/static/css/LoginStyle.css">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="103" column="19" lean-forward="false" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
+        <state relative-caret-position="89">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/static/js/bootstrap.js">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/statements/RunBefores.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="89">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/static/js/jquery.js">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14423">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="139">
+          <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/static/js/AboutUs.js">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1066">
-          <caret line="50" column="3" lean-forward="false" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
+        <state relative-caret-position="105">
+          <caret line="370" column="0" lean-forward="false" selection-start-line="370" selection-start-column="0" selection-end-line="370" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/WEB-INF/jsp/AboutUs.jsp">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="64" lean-forward="true" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
-          <folding />
+        <state relative-caret-position="416">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/static/css/404Style.css">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/static/css/MainWindowStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="132" column="29" lean-forward="false" selection-start-line="132" selection-start-column="29" selection-end-line="132" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/static/css/AboutUsStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/static/css/MallStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1439">
-          <caret line="290" column="0" lean-forward="false" selection-start-line="290" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/WEB-INF/jsp/Trinidad.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/WEB-INF/jsp/Lou.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/WEB-INF/jsp/Mall.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3770">
-          <caret line="145" column="34" lean-forward="false" selection-start-line="145" selection-start-column="34" selection-end-line="145" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/WEB-INF/jsp/Detail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/static/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1536" column="1" lean-forward="false" selection-start-line="1536" selection-start-column="1" selection-end-line="1536" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/static/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4758">
-          <caret line="183" column="27" lean-forward="false" selection-start-line="183" selection-start-column="27" selection-end-line="183" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/static/css/RegisterStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5044">
-          <caret line="194" column="29" lean-forward="false" selection-start-line="194" selection-start-column="29" selection-end-line="194" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/static/js/jquery.mixitup.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-355">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/static/js/jquery.validate.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/java/com/DeltaFish/utils/Md5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="79">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/java/com/DeltaFish/pojo/TUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-service/src/main/java/com/DeltaFish/service/MyBatisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#783#784#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.3.RELEASE/spring-webmvc-4.1.3.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.3.RELEASE/spring-webmvc-4.1.3.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.3.RELEASE/spring-webmvc-4.1.3.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="886" column="0" lean-forward="false" selection-start-line="886" selection-start-column="0" selection-end-line="886" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.3.RELEASE/spring-webmvc-4.1.3.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="843" column="0" lean-forward="false" selection-start-line="843" selection-start-column="0" selection-end-line="843" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.3.RELEASE/spring-webmvc-4.1.3.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="705" column="0" lean-forward="false" selection-start-line="705" selection-start-column="0" selection-end-line="705" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/test/java/com/DeltaFish/controller/TestPageHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="-828">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-service/src/test/java/TestTUserMapperImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="260">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/resources/mybatis/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/resources/mybatis/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/test/java/com/DeltaFish/manage/TestTUserMapper.java">
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/resources/resource/db.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-service/src/main/java/com/DeltaFish/service/impl/TUserMapperImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="67" column="36" lean-forward="true" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/test/java/com/DeltaFish/manage/TestBooksMapper.java">
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/resources/SqlMapConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="910">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-884">
+          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/resources/generator.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/java/com/DeltaFish/mapper/TUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/test/java/com/DeltaFish/manage/BeforeTUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/java/com/DeltaFish/mapper/TUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <marker date="1533435017549" expanded="true" signature="1176:1372" ph="insert into t_user... " />
+            <marker date="1533435017549" expanded="true" signature="1463:1563" ph="select user_... t_user" />
+            <marker date="1533435017549" expanded="true" signature="1679:1724" ph="select * fro... t_user" />
+            <marker date="1533435017549" expanded="true" signature="1842:1891" ph="SELECT * FRO... t_user" />
+            <marker date="1533435017549" expanded="true" signature="1967:2009" ph="delete from t_user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/java/com/DeltaFish/mapper/BooksMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <marker date="1533409627793" expanded="true" signature="1141:1574" ph="insert into books... " />
+            <marker date="1533409627793" expanded="true" signature="3377:3418" ph="delete from books... " />
+            <marker date="1533409627793" expanded="true" signature="3526:3570" ph="select * fro... books" />
+            <marker date="1533409627793" expanded="true" signature="3680:3728" ph="select * fro... books" />
+            <marker date="1533409627793" expanded="true" signature="3840:3883" ph="select * fro... books" />
+            <marker date="1533409627793" expanded="true" signature="3994:4035" ph="select * fro... books" />
+            <marker date="1533409627793" expanded="true" signature="4146:4192" ph="select * fro... books" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="54" column="55" lean-forward="false" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/99e84782/ec4fb9f3-53c7-4d9f-b517-ee1e1b44f0b8/deltafish.books">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/java/com/DeltaFish/mapper/BookMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/java/com/DeltaFish/pojo/BookExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="962">
+          <caret line="97" column="9" lean-forward="false" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-service/src/main/java/com/DeltaFish/service/impl/BooksMapperImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1742">
+          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ec4fb9f3-53c7-4d9f-b517-ee1e1b44f0b8/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/java/com/DeltaFish/mapper/BooksMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/java/com/DeltaFish/pojo/Books.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/java/com/DeltaFish/mapper/BookMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/test/java/com/DeltaFish/manage/BeforeBooksMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-service/src/main/java/com/DeltaFish/service/MyBatisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109">
+          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/java/com/DeltaFish/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="60" column="29" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1464,41 +1505,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://src:table:/99e84782/ec4fb9f3-53c7-4d9f-b517-ee1e1b44f0b8/deltafish.t_user">
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        <state relative-caret-position="255">
+          <caret line="132" column="23" lean-forward="true" selection-start-line="132" selection-start-column="23" selection-end-line="132" selection-end-column="23" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/java/com/DeltaFish/mapper/TUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-service/src/main/java/com/DeltaFish/service/impl/TUserMapperImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/java/com/DeltaFish/mapper/TUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding>
-            <marker date="1533147265413" expanded="true" signature="1175:1371" ph="insert into t_user... " />
-            <marker date="1533147265413" expanded="true" signature="1462:1562" ph="select user_... t_user" />
-            <marker date="1533147265413" expanded="true" signature="1678:1723" ph="select * fro... t_user" />
-            <marker date="1533147265413" expanded="true" signature="1841:1890" ph="SELECT * FRO... t_user" />
-            <marker date="1533147265413" expanded="true" signature="1966:2008" ph="delete from t_user... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1509,92 +1520,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/static/js/regvalidate.js">
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/test/java/com/DeltaFish/manage/TestTUserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1452">
-          <caret line="37" column="39" lean-forward="true" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
-          <folding>
-            <element signature="e#68#320#0" expanded="false" />
-            <element signature="e#363#681#0" expanded="false" />
-            <element signature="e#724#1045#0" expanded="false" />
-            <element signature="e#1089#1415#0" expanded="false" />
-            <element signature="e#2115#2737#0" expanded="false" />
-            <element signature="e#2786#2932#0" expanded="false" />
-            <element signature="e#3369#3565#0" expanded="false" />
-            <element signature="e#3592#3687#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/WEB-INF/jsp/Register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="1248">
+          <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/static/js/logvalidate.js">
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/test/java/com/DeltaFish/manage/TestBooksMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1088">
-          <caret line="51" column="48" lean-forward="true" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
+        <state relative-caret-position="2834">
+          <caret line="109" column="38" lean-forward="true" selection-start-line="109" selection-start-column="38" selection-end-line="109" selection-end-column="38" />
           <folding>
-            <element signature="e#64#316#0" expanded="false" />
-            <element signature="e#359#677#0" expanded="false" />
-            <element signature="e#720#1041#0" expanded="false" />
-            <element signature="e#1085#1411#0" expanded="false" />
-            <element signature="e#1453#1749#0" expanded="false" />
-            <element signature="e#2111#2733#0" expanded="false" />
-            <element signature="e#2782#2928#0" expanded="false" />
-            <element signature="e#3365#3561#0" expanded="false" />
-            <element signature="e#3588#3683#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/java/com/DeltaFish/controller/RegisterController.java">
+    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanagemapper/src/main/java/com/DeltaFish/pojo/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-364">
-          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/webapp/WEB-INF/jsp/Login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-282">
-          <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-          <folding>
-            <element signature="e#1413#2209#0#JSP" expanded="false" />
-            <element signature="e#3626#4388#0#JSP" expanded="false" />
-            <marker date="1533402031709" expanded="false" signature="2114:2128" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/java/com/DeltaFish/controller/PageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding>
-            <element signature="e#1295#1296#0" expanded="true" />
-            <element signature="e#1324#1325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/java/com/DeltaFish/controller/NeedMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="49" column="30" lean-forward="false" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/src/main/java/com/DeltaFish/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="43" column="77" lean-forward="false" selection-start-line="43" selection-start-column="77" selection-end-line="43" selection-end-column="77" />
+        <state relative-caret-position="347">
+          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding />
         </state>
       </provider>

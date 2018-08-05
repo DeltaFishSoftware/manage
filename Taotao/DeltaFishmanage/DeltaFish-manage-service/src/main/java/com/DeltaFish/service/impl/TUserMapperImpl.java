@@ -10,8 +10,7 @@ import org.apache.ibatis.session.SqlSession;
 import java.util.List;
 
 public class TUserMapperImpl implements TUserMapper{
-    //@Insert("INSERT INTO t_user(user_name,user_id,password,email) VALUES(#{user_name},#{user_id},#{password},#{email})")
-    //@Options(useGeneratedKeys = true,keyProperty = "id")
+
     @Override
     public int insertUser(TUser record) throws Exception{
         //获得会话对象

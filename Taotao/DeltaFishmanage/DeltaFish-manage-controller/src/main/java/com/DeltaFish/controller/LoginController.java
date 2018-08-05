@@ -1,6 +1,8 @@
 package com.DeltaFish.controller;
 
+import com.DeltaFish.mapper.BookMapper;
 import com.DeltaFish.mapper.TUserMapper;
+import com.DeltaFish.pojo.Book;
 import com.DeltaFish.pojo.TUser;
 import com.DeltaFish.utils.Md5;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +17,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class LoginController {
     @Autowired
     private TUserMapper tUserMapper;
+
+    @Autowired
+    private BookMapper bookMapper;
 
 
     @RequestMapping(value = "/Login")
@@ -46,6 +51,18 @@ public class LoginController {
             }else{
                 System.out.println("Didnot find user : " + name);
             }
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+
+        Book book = new Book();
+        book.setBookId("0000000");
+        book.setOperation("2");
+        book.setEdition("0");
+        book.setOwnerId("PB16061470");
+        book.setBookName("fucking");
+        try{
+            bookMapper.insertSelective(book);
         }catch(Exception e){
             e.printStackTrace();
         }

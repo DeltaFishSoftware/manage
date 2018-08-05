@@ -53,7 +53,7 @@
         <!--Mapper映射文件生成所在的目录 为每一个数据库的表生成对应的SqlMap文件 -->
         <sqlMapGenerator targetPackage="com.DeltaFish.mapper"
                          targetProject="src/main/java">
-            <property name="enableSubPackages" value="false"/>
+            <property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
 
         <!-- 客户端代码，生成易于使用的针对Model对象和XML配置文件 的代码
@@ -67,17 +67,17 @@
         </javaClientGenerator>
 
 
-        <table tableName="books" domainObjectName="Books"
+        <table tableName="books" domainObjectName="Book"
                enableCountByExample="false" enableUpdateByExample="false"
-               enableDeleteByExample="false" enableSelectByExample="false"
-               selectByExampleQueryId="false">
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
         </table>
 
-        <table tableName="userinfos" domainObjectName="Userinfo"
+   <!--     <table tableName="userinfos" domainObjectName="Userinfo"
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false">
-        </table>
+        </table>-->
 
     </context>
 </generatorConfiguration>

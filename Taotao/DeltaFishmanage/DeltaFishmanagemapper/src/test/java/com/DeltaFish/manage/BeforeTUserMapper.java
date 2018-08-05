@@ -13,7 +13,7 @@ import java.io.Reader;
 public class BeforeTUserMapper {
     private static SqlSessionFactory sqlSessionFactory;
     @BeforeClass
-    public static void init(){
+    public static void initTUser(){
         try{
             Reader reader = Resources.getResourceAsReader("SqlMapConfig.xml");
             sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);
