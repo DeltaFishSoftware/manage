@@ -1,4 +1,6 @@
+com\DeltaFish\service\Impl\TUserServiceImpl.class
 com\DeltaFish\controller\NeedMapper.class
 com\DeltaFish\controller\RegisterController.class
+com\DeltaFish\service\TUserService.class
 com\DeltaFish\controller\PageController.class
 com\DeltaFish\controller\LoginController.class

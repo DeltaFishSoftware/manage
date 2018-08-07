@@ -63,8 +63,31 @@ $(document).ready(function() {
                 userName: {
                     required: true,
                     minlength: 3,
-                    maxlength: 20
+                    maxlength: 20,
+  /*                  remote: {
+                        url:"checkUser",
+                        type:"get",
+                        delay:1000,
+                        contentType: "application/json;charset=utf-8",
+                        //message:"该用户名已被占用",
+                        data:{
+                            userName:function(){
+                                return $("#userName").val();
+                            }
+                        },
+                        dataFilter: function(data, type) {
+                            //alert(data);
+                            if (data == 1) {
+                                return false;
+                            }
+                            else {
+                                return true;
+                            }
+                        }
+                    }  //remote 验证一直有 bug 能验证 但是显示出错？？？？？？？？？？？？？
+                    */
                 },
+
                 password: {
                     required: true,
                     minlength: 6,
@@ -87,7 +110,7 @@ $(document).ready(function() {
                     required: "请输入一个3-20位的用户名",
                     minlength: "用户名至少包含3位字符",
                     maxlength: "用户名不得超过20位字符",
-                    remote: "该用户已被占用"
+                    remote:"该用户名已被占用",
                 },
                 password: {
                     required: "请输入一个有效的密码",
@@ -99,10 +122,6 @@ $(document).ready(function() {
                     minlength: "密码至少要包含6位字符",
                     maxlength: "密码不得超过16位字符",
                     equalTo: "两次密码输入不一致"
-                },
-                captcha: {
-                    required: "请输入验证码",
-                    remote: "验证码错误"
                 }
             },
             errorElement: "span",
@@ -147,6 +166,9 @@ $(document).ready(function() {
         });
 
 });
+
+
+
 
 
 
