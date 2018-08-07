@@ -2,6 +2,8 @@ package com.DeltaFish.mapper;
 
 import com.DeltaFish.pojo.Book;
 import com.DeltaFish.pojo.BookExample;
+import org.apache.ibatis.annotations.Param;
+
 import java.util.List;
 
 public interface BookMapper {
@@ -10,6 +12,8 @@ public interface BookMapper {
     int insert(Book record);
 
     int insertSelective(Book record);
+
+    List<Book> listByPage(@Param("start") Integer start, @Param("end") Integer end);
 
     List<Book> selectByExample(BookExample example);
 }
