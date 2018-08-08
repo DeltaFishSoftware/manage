@@ -181,7 +181,7 @@
                                 </a>
                                 <div class="label">
                                     <div class="label-text">
-                                        <a class="text-title">热血</a>
+                                        <a class="text-title">热学</a>
                                     </div>
                                     <div class="label-bg"></div>
                                 </div>
