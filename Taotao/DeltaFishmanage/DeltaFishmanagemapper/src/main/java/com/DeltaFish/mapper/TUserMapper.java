@@ -12,13 +12,13 @@ public interface TUserMapper {
      *
      * @mbggenerated Sat May 05 16:02:56 CST 2018
      */
-    public int insertUser(TUser record) throws Exception;
+    int insertUser(TUser record) throws Exception;
 
-    public TUser findUserById(String id) throws Exception;
+    TUser findUserById(String id) throws Exception;
 
-    public TUser findUserByName(String name) throws Exception;
+    TUser findUserByName(String name) throws Exception;
 
-    public int deleteUser(String id) throws Exception;
+    int deleteUser(String id) throws Exception;
 
     List<TUser> selectAll();
 }

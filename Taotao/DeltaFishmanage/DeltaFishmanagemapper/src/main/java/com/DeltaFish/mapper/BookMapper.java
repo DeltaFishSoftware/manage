@@ -15,5 +15,7 @@ public interface BookMapper {
 
     List<Book> listByPage(@Param("start") Integer start, @Param("end") Integer end);
 
+    long getTotal();
+
     List<Book> selectByExample(BookExample example);
 }

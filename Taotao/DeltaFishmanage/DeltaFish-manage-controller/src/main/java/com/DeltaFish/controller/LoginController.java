@@ -69,22 +69,26 @@ public class LoginController {
                 e.printStackTrace();
                 System.out.println("插入失败！");
             }*/
-           /*//book 分页测试 已成功
+           //book 分页测试 已成功
             Integer page = 1;
-            Integer pageSize = 3;
+            Integer pageSize = 5;
             Integer start = (page - 1) * pageSize;
             Integer end = page * pageSize;
             try {
                 List<Book> bookList = bookMapper.listByPage(start, end);
+                long total = bookMapper.getTotal();
+                System.out.println("******书籍分页 第一页********");
                 for (Book book :bookList){
-                    System.out.println(book);
+                    System.out.println(book.getBookName());
                 }
-                System.out.println("书籍分页成功！");
+                System.out.println("******* 书籍分页成功！*******");
+                System.out.print("总共书籍本数为：");
+                System.out.println(total);
             }catch(Exception e){
                 e.printStackTrace();
                 System.out.println("书籍分页失败！");
             }
-            */
+
             System.out.println("Have found user : " + name + " !");
             return "Mall";
         }

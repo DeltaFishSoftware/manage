@@ -146,8 +146,11 @@
       </if>
     </trim>
   </insert>
-  <select id="listByPage" resultMap="BaseResultMap" parameterType="com.DeltaFish.pojo.Book">
+  <select id="listByPage" resultMap="BaseResultMap" >
     SELECT owner_id, book_name, edition, author, press, introduction, operation, link, comment, book_id
     FROM books limit #{start},#{end}
   </select>
+    <select id="getTotal" resultType="java.lang.Long" >
+        SELECT COUNT(*) FROM books
+    </select>
 </mapper>
