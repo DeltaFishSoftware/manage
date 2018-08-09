@@ -23,15 +23,15 @@
 
 <div id="header" class="container">
     <div id="logo">
-        <h1><a href="MainWindow.html">DeltaFish</a></h1>
+        <h1><a href="MainWindow">DeltaFish</a></h1>
     </div>
     <div id="menu">
         <ul>
-            <li><a href="MainWindow.html" title="">主页</a></li>
-            <li><a href="Mall.html" title="">交易市场</a></li>
-            <li><a href="AboutUs.html" title="">关于我们</a></li>
-            <li><a href="Login.html" title="">登录</a></li>
-            <li><a href="Register.html" title="">注册</a></li>
+            <li><a href="MainWindow" title="">主页</a></li>
+            <li><a href="Mall" title="">交易市场</a></li>
+            <li><a href="AboutUs" title="">关于我们</a></li>
+            <li><a href="Login" title="">登录</a></li>
+            <li><a href="Register" title="">注册</a></li>
         </ul>
     </div>
 </div>

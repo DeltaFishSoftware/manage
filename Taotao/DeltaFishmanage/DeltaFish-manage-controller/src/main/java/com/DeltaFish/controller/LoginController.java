@@ -69,7 +69,7 @@ public class LoginController {
                 e.printStackTrace();
                 System.out.println("插入失败！");
             }*/
-           //book 分页测试 已成功
+           /*//book 分页测试 已成功
             Integer page = 1;
             Integer pageSize = 5;
             Integer start = (page - 1) * pageSize;
@@ -87,10 +87,10 @@ public class LoginController {
             }catch(Exception e){
                 e.printStackTrace();
                 System.out.println("书籍分页失败！");
-            }
+            }*/
 
             System.out.println("Have found user : " + name + " !");
-            return "Mall";
+            return "List";
         }
         return "Login";
     }
