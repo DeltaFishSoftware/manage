@@ -3,10 +3,8 @@ package com.DeltaFish.controller;
 import com.DeltaFish.mapper.TUserMapper;
 import com.DeltaFish.pojo.TUser;
 import com.DeltaFish.service.MyBatisUtil;
-import com.DeltaFish.service.impl.TUserMapperImpl;
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -34,7 +32,7 @@ public class NeedMapper {
         List<TUser> tusers = tUserMapper.selectAll();
 
         if(userName.equals(tusers.get(0).getUserName()) && password.equals(tusers.get(0).getPassword()))
-            return "Homepage";
+            return "User";
         /*else if(userName.equals(tusers.get(1).getUserName()) && password.equals(tusers.get(1).getPassword()))
             return "Czk";
         else if(userName.equals(tusers.get(2).getUserName()) && password.equals(tusers.get(2).getPassword()))
@@ -58,6 +56,6 @@ public class NeedMapper {
         System.out.println(tu.getUserId());
         session.commit();
         session.close();
-        return "Homepage";
+        return "User";
     }
 }

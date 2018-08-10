@@ -14,6 +14,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -38,8 +40,9 @@ public class LoginController {
         return "Login";
     }
 
+
     @RequestMapping(value = "person",method = RequestMethod.POST)
-    public String toPerson(Model model, @ModelAttribute("tUser")TUser tUser) {
+    public String toPerson(Model model, @ModelAttribute("tUser")TUser tUser, HttpServletRequest request) {
         model.addAttribute("tUser", tUser);
 
         String name = tUser.getUserName();
@@ -54,46 +57,25 @@ public class LoginController {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        if (result) {
-           /*//book 插入测试 已成功
-            Book book = new Book();
-            book.setBookName(name + "Learning");
-            book.setOwnerId(name);
-            book.setEdition("2");
-            book.setOperation("1");
-            book.setBookId("0000");
-            try {
-                bookMapper.insertSelective(book);
-                System.out.println("插入成功！");
-            }catch(Exception e){
-                e.printStackTrace();
-                System.out.println("插入失败！");
-            }*/
-           /*//book 分页测试 已成功
-            Integer page = 1;
-            Integer pageSize = 5;
-            Integer start = (page - 1) * pageSize;
-            Integer end = page * pageSize;
-            try {
-                List<Book> bookList = bookMapper.listByPage(start, end);
-                long total = bookMapper.getTotal();
-                System.out.println("******书籍分页 第一页********");
-                for (Book book :bookList){
-                    System.out.println(book.getBookName());
-                }
-                System.out.println("******* 书籍分页成功！*******");
-                System.out.print("总共书籍本数为：");
-                System.out.println(total);
-            }catch(Exception e){
-                e.printStackTrace();
-                System.out.println("书籍分页失败！");
-            }*/
 
+        if (result) {
+            try {
+                tUser = tUserMapper.findUserByName(name);
+            }catch(Exception e){
+                e.printStackTrace();
+            }
+            HttpSession httpSession = request.getSession();
+            httpSession.setAttribute("user",tUser);
+            httpSession.setAttribute("status","login");
             System.out.println("Have found user : " + name + " !");
-            return "List";
+            return "MainWindow";
+        }else {
+            request.setAttribute("error", "用户名或密码错误！");
+            return "Login";
         }
-        return "Login";
     }
+
+
 
     @RequestMapping("/checkUser")
     public @ResponseBody

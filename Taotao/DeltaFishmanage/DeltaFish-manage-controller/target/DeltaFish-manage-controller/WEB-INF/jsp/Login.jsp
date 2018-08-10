@@ -25,18 +25,7 @@
             <div id="content">
                 <form:form action="person" method="POST" id="logform" class="col-sm-offset-4 col-sm-8 form-horizontal" role="form" modelAttribute="tUser">
                     <fieldset>
- <%--                       <div class="row">
-                            <div class="col-sm-6">
-                                <div class="input-group">
-                                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                                    <form:input type="email" class="form-control input-lg input_size" id="email" path="email" placeholder="请输入常用邮箱" required="" />
-                                </div>
-                            </div>
-                            <div id="emailinfo" class="col-sm-6">
-                                <span class="notice"></span>
-                                <span class="infoerror" style="color: #ff0000"></span>
-                            </div>
-                        </div>  --%>
+
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="input-group">
@@ -59,17 +48,7 @@
                                 <span class="notice"></span>
                             </div>
                         </div>
-     <%--                   <div class="row">
-                            <div class="col-sm-6">
-                                <div class="input-group">
-                                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                                    <input type="password" class="form-control input-lg input_size" id="password2" name="password2" placeholder="请再次输入密码" onpaste=" return false" onselectstart="return false" required="" />
-                                </div>
-                            </div>
-                            <div id="password2info" class="col-sm-6">
-                                <span class="notice"></span>
-                            </div>
-                        </div>--%>
+
                         <div class="row">
                             <div class="col-sm-6">
                                 <input type="submit" class="btn btn-info btn-lg btn-block bottom-space" style="background-color: #50a3a2" value="登录" />

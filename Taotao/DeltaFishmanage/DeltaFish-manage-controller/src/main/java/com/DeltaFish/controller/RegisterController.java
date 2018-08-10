@@ -4,7 +4,6 @@ import com.DeltaFish.mapper.TUserMapper;
 import com.DeltaFish.pojo.TUser;
 import com.DeltaFish.service.impl.TUserMapperImpl;
 import com.DeltaFish.utils.Md5;
-import javafx.scene.control.Alert;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

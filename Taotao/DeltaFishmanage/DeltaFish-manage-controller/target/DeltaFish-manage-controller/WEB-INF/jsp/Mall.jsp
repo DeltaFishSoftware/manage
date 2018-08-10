@@ -1,4 +1,4 @@
-<%--
+<%@ page import="com.DeltaFish.pojo.TUser" %><%--
   Created by IntelliJ IDEA.
   User: Rain Lou
   Date: 6/3/2018
@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<% TUser tUser = (TUser)session.getAttribute("user"); %>
 
 <html>
 
@@ -80,7 +81,7 @@
     <div id="menu">
         <ul>
             <li><a href="<c:url value="/MainWindow"/>" title="">主页</a></li>
-            <li><a href="<c:url value="/Mall"/>" title="">交易市场</a></li>
+            <li><a href="<c:url value="/List"/>" title="">交易市场</a></li>
             <li><a href="<c:url value="/AboutUs"/>" title="">关于我们</a></li>
             <li><a href="<c:url value="/Login"/>" title="">登录</a></li>
             <li><a href="<c:url value="/Register"/>" title="">注册</a></li>
@@ -181,7 +182,7 @@
                                 </a>
                                 <div class="label">
                                     <div class="label-text">
-                                        <a class="text-title">热血</a>
+                                        <a class="text-title">热学</a>
                                     </div>
                                     <div class="label-bg"></div>
                                 </div>

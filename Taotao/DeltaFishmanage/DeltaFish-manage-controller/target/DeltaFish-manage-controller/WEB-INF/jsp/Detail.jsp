@@ -21,7 +21,7 @@
 <div class="container">
     <div class="container_wrap">
         <div class="header_top">
-            <div class="col-sm-3 logo"><a href="MainWindow.html"><img src="/static/images/logo.png" alt=""/></a></div>
+            <div class="col-sm-3 logo"><a href="MainWindow"><img src="/static/images/logo.png" alt=""/></a></div>
             <div class="clearfix"></div>
         </div>
         <div class="content">
@@ -29,146 +29,68 @@
                 <div class="col-md-9 movie_box">
                     <div class="grid images_3_of_2">
                         <div class="movie_image">
-                            <span class="movie_rating">5.0</span>
                             <img src="/static/images/slfc.jpg" class="img-responsive" alt=""/>
-                        </div>
-                        <div class="movie_rate">
-                            <div class="rating_desc"><p>Your Vote :</p></div>
-                            <form action="" class="sky-form">
-                                <fieldset>
-                                    <section>
-                                        <div class="rating">
-                                            <input type="radio" name="stars-rating" id="stars-rating-5">
-                                            <label for="stars-rating-5"><i class="icon-star"></i></label>
-                                            <input type="radio" name="stars-rating" id="stars-rating-4">
-                                            <label for="stars-rating-4"><i class="icon-star"></i></label>
-                                            <input type="radio" name="stars-rating" id="stars-rating-3">
-                                            <label for="stars-rating-3"><i class="icon-star"></i></label>
-                                            <input type="radio" name="stars-rating" id="stars-rating-2">
-                                            <label for="stars-rating-2"><i class="icon-star"></i></label>
-                                            <input type="radio" name="stars-rating" id="stars-rating-1">
-                                            <label for="stars-rating-1"><i class="icon-star"></i></label>
-                                        </div>
-                                    </section>
-                                </fieldset>
-                            </form>
-                            <div class="clearfix"></div>
                         </div>
                     </div>
                     <div class="desc1 span_3_of_2">
                         <p class="movie_option"><strong>书名: </strong><a>数理方程</a></p>
                         <p class="movie_option"><strong>版次: </strong>第二版</p>
-                        <p class="movie_option"><strong>Editor: </strong><a>陈先进</a></p>
-                        <p class="movie_option"><strong>Release date: </strong>December 12, 2014</p>
-                        <p class="movie_option"><strong>分类: </strong><a href="#">数学 </a>，</strong><a href="#">物理 </a>
-                        </p>
-                        <p class="movie_option"><strong>Grade restriction: </strong>2</p>
-                        <div class="down_btn"><a class="btn1" href="Homepage.html"><span> </span>Contect</a></div>
+                        <p class="movie_option"><strong>作者: </strong><a>陈先进</a></p>
+                        <p class="movie_option"><strong>出版日期: </strong>2014 年 8 月 14 日</p>
+                        <p class="movie_option"><strong>分类: </strong>数学、物理</p>
+                        <p class="movie_option"><strong>建议修读年级: </strong>大二</p>
+                        <p class="movie_option"><strong>卖家: </strong>齐天杨</p>
+                        <p class="movie_option"><strong>卖家说明：</strong>这门课很难，一定要好好学！学得好对后面的课程帮助很大！请各位同学对数理方程保持敬畏的心理！</p>
+                        <div class="down_btn"><a class="btn1" href="User"><span> </span>CONTACT</a></div>
                     </div>
                     <div class="clearfix"></div>
-                    <p class="m_4">这门课很难2333</p>
-                    <form method="post" action="contact-post.html">
-                        <div class="text">
-                            <textarea value="Message:" onfocus="this.value = '';"
-                                      onblur="if (this.value == '') {this.value = 'Message';}">Message:</textarea>
-                        </div>
-                        <div class="form-submit1">
-                            <input name="submit" type="submit" id="submit" value="Submit Your Message"><br>
-                        </div>
-                        <div class="clearfix"></div>
-                    </form>
+
                     <div class="single">
-                        <h1>10 Comments</h1>
+                        <h1>COMMENTS</h1>
                         <ul class="single_list">
                             <li>
-                                <div class="preview"><a href="Homepage.html"><img src="/static/images/GroupMember/ZWQ.png"
-                                                                                  class="img-responsive" alt=""></a>
+                                <div class="preview"><img src="/static/images/GroupMember/ZWQ.png"
+                                                          class="img-responsive"></a>
                                 </div>
                                 <div class="data">
-                                    <div class="title">Movie / 2 hours ago / <a href="Homepage.html">reply</a></div>
+                                    <div class="title">邹卫其</div>
                                     <p>卖家好垃圾，明明不难！</p>
                                 </div>
                                 <div class="clearfix"></div>
                             </li>
                             <li>
-                                <div class="preview"><a href="Homepage.html"><img src="/static/images/GroupMember/QTY.png"
-                                                                                  class="img-responsive" alt=""></a>
+                                <div class="preview"><img src="/static/images/GroupMember/QTY.png"
+                                                          class="img-responsive"></a>
                                 </div>
                                 <div class="data">
-                                    <div class="title">Wernay / 2 hours ago / <a href="Homepage.html">reply</a></div>
-                                    <p>真的好 </p>
+                                    <div class="title">齐天杨</div>
+                                    <p>真的好！</p>
                                 </div>
                                 <div class="clearfix"></div>
                             </li>
                             <li>
-                                <div class="preview"><a href="Homepage.html"><img src="/static/images/GroupMember/LYZ.png"
-                                                                                  class="img-responsive" alt=""></a>
+                                <div class="preview"><img src="/static/images/GroupMember/LYZ.png"
+                                                          class="img-responsive"></a>
                                 </div>
                                 <div class="data">
-                                    <div class="title">mr.dev / 2 hours ago / <a href="Homepage.html">reply</a></div>
-                                    <p>1</p>
-                                </div>
-                                <div class="clearfix"></div>
-                            </li>
-                            <li class="middle">
-                                <div class="preview"><a href="Homepage.html"><img src="/static/images/GroupMember/LX.png"
-                                                                                  class="img-responsive" alt=""></a>
-                                </div>
-                                <div class="data-middle">
-                                    <div class="title">Wernay / 2 hours ago / <a href="Homepage.html">reply</a></div>
-                                    <p>2</p>
-                                </div>
-                                <div class="clearfix"></div>
-                            </li>
-                            <li class="last-comment">
-                                <div class="preview"><a href="Homepage.html"><img src="../images/GroupMember/LYZ.png"
-                                                                                  class="img-responsive" alt=""></a>
-                                </div>
-                                <div class="data-last">
-                                    <div class="title">mr.dev / 2 hours ago / <a href="Homepage.html">reply</a></div>
-                                    <p>3</p>
+                                    <div class="title">娄雨禛</div>
+                                    <p>就这样子吧，可以了。</p>
                                 </div>
                                 <div class="clearfix"></div>
                             </li>
                             <li>
-                                <div class="preview"><a href="Homepage.html"><img src="/static/images/GroupMember/ZZX.png"
-                                                                                  class="img-responsive" alt=""></a>
+                                <div class="preview"><img src="/static/images/GroupMember/ZZX.png"
+                                                          class="img-responsive"></a>
                                 </div>
                                 <div class="data">
-                                    <div class="title">denpro / 2 hours ago / <a href="Homepage.html">reply</a></div>
-                                    <p>2018.6.2</p>
+                                    <div class="title">曾子轩</div>
+                                    <p>脑壳有屎，他妈的！这种吃翔的东西还拿出来卖！</p>
                                 </div>
                                 <div class="clearfix"></div>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="movie_img">
-                        <div class="grid_2">
-                            <img src="/static/images/slfc.jpg" class="img-responsive" alt="">
-                            <div class="caption1">
-
-                                <p class="m_3">数理方程</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="grid_2 col_1">
-                        <img src="/static/images/slfc.jpg" class="img-responsive" alt="">
-                        <div class="caption1">
-
-                            <p class="m_3">数理方程</p>
-                        </div>
-                    </div>
-                    <div class="grid_2 col_1">
-                        <img src="/static/images/slfc.jpg" class="img-responsive" alt="">
-                        <div class="caption1">
-
-                            <p class="m_3">数理方程</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
             </div>
         </div>
     </div>

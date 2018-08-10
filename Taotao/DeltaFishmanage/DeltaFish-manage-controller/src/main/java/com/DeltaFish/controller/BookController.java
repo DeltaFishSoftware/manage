@@ -19,6 +19,11 @@ public class BookController {
     @Resource
     private BookService bookService;
 
+    @RequestMapping("/List")
+    public String showList() {
+        return "List";
+    }
+
     @RequestMapping("/list")
     public String listBook(
             @RequestParam(value = "page", required = false) String page,

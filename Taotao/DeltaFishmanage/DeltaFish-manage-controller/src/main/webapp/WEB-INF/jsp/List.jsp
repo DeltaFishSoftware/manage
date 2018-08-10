@@ -1,5 +1,7 @@
+<%@ page import="com.DeltaFish.pojo.TUser" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<% TUser tUser = (TUser)session.getAttribute("user"); %>
 
 <html lang="zh">
 <head>
@@ -17,15 +19,20 @@
 <body>
 <div id="header" class="container">
     <div id="logo">
-        <h1><a href="MainWindow.html">DeltaFish</a></h1>
+        <h1><a href="MainWindow">DeltaFish</a></h1>
     </div>
     <div id="menu">
         <ul>
-            <li><a href="MainWindow.html" title="">主页</a></li>
-            <li><a href="Mall.html" title="">交易市场</a></li>
-            <li><a href="AboutUs.html" title="">关于我们</a></li>
-            <li><a href="Login.html" title="">登录</a></li>
-            <li><a href="Register.html" title="">注册</a></li>
+            <li><a href="MainWindow" title="">主页</a></li>
+            <li><a href="List" title="">交易市场</a></li>
+            <li><a href="AboutUs" title="">关于我们</a></li>
+            <%if(tUser == null) {%>
+            <li><a href="Login" title="">登录</a></li>
+            <%} else {%>
+            <li><a href="User" title="">个人中心</a></li>
+            <%}
+            %>
+            <li><a href="Register" title="">注册</a></li>
         </ul>
     </div>
 </div>
