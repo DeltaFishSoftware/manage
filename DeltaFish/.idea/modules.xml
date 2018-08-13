@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/DeltaFish-manage-controller.iml" filepath="$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/DeltaFish-manage-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DeltaFishcommon/DeltaFishcommon.iml" filepath="$PROJECT_DIR$/DeltaFishcommon/DeltaFishcommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanage.iml" filepath="$PROJECT_DIR$/DeltaFishmanage/DeltaFishmanage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DeltaFishparent/DeltaFishparent.iml" filepath="$PROJECT_DIR$/DeltaFishparent/DeltaFishparent.iml" />
+    </modules>
+  </component>
+</project>

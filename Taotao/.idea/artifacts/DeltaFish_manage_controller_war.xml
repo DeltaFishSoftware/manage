@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="DeltaFish-manage-controller:war">
-    <output-path>$PROJECT_DIR$/DeltaFishmanage/DeltaFish-manage-controller/target</output-path>
-    <root id="archive" name="DeltaFish-manage-controller.war">
-      <element id="artifact" artifact-name="DeltaFish-manage-controller:war exploded" />
-    </root>
-  </artifact>
-</component>
